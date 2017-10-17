@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>网站注册会员管理-后台管理首页-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+            $addJs="";
+            $currentNav ='网站注册会员管理 > 个人会员列表';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+    <div class="wrap">
+        <include file="Common:head" />
+        <div class="mainBody">
+            <include file="Common:left" />
+            <div id="Right">
+                <div >
+                    <form action="__URL__/search" method="post">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                            <tr align="left">
+                                <td width="11%">搜索个人会员</td>
+                                <td width="22%">
+                                    <input type="text" name="keyword" size="30" class="input"/>
+                                </td>
+                                <td width="9%">
+                                    <select name="kind">
+                                        <option value='1'>按帐号</option>
+                                        <option value='2'>按姓名</option>
+                                    </select>
+                                </td>
+                                <td width="58%">
+                                    <button class="btn submit">搜索</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="Item hr">
+                    <div class="current">个人会员列表</div>
+                </div>
+
+                <!-- content start -->
+
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
+                    <thead>
+                        <tr>
+                            <td>会员ID</td>
+                            <td>账号</td>
+                            <td>真实姓名</td>
+                            <td>性别</td>
+                            <td>学院</td>
+                            <td>专业</td>
+                            <td>QQ</td>
+                            <td>手机</td>
+                            <td>科技达人</td>
+                            <td width="150">操作</td>
+                        </tr>
+                    </thead>
+                    <volist name="list" id="vo">
+                        <form>
+                            <tr align="center">
+                                <td>{$vo.uid}</td>
+                                <td>{$vo.nickname}</td>
+                                <td>{$vo.truename}</td>
+                                <td>
+                                    <if condition="$vo['sex'] neq NULL">
+                                        <if condition="$vo['sex'] eq 0">
+                                            女
+                                            <else/>
+                                            男
+                                        </if>
+                                    </if>
+                                </td>
+                                <td>{$vo.academy}</td>
+                                <td>{$vo.major}</td>
+                                <td>{$vo.qq}</td>
+                                <td>{$vo.phone}</td>
+                                <td>
+                                    <a href="__URL__/isvip?id={$vo.uid}">
+                                        <if condition="$vo['isvip'] eq 1">
+                                            [是]
+                                            <else/>
+                                            [否]
+                                        </if>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="__URL__/edit?uid={$vo.uid}">[编辑]</a>
+                                    <a  href="__URL__/delete?uid={$vo.uid}">[删除]</a>
+                                </td>
+                            </tr>
+                        </form>
+                    </volist>
+                    <tr>
+                        <td colspan="10" align="right">{$page}</td>
+                    </tr>
+                </table>
+
+                <!-- content end --> </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <include file="Common:foot" />
+</body>
+</html>

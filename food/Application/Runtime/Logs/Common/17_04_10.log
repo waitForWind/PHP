@@ -1,0 +1,78 @@
+[ 2017-04-10T15:28:51+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:30:58+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:30:59+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:30:59+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:30:59+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:31:04+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:31:14+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:31:14+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:31:14+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:31:15+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:31:15+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:31:15+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Undefined
+
+[ 2017-04-10T15:31:16+08:00 ] ::1 /food/undefined/order/id/1/user_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Undefined
+

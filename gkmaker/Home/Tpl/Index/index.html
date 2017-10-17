@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>大学生科创中心欢迎您！</title>
+    <meta name="keywords" content="大学生科创中心,科技交流,科技交友,寻找交友,创意孵化,在线报名,热门比赛" />
+    <meta name="description" content="大学生科创中心是一个科技学术交友的平台，并兼有科技交流、名师检索、资料下载、赛事预览、在线报名等功能" />
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.movebg.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/main.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/daycoming.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/cookieclass.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/iealert.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/fixednav.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/baidu_search.js"></script>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/main.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/index.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/showpic.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/iealert.css" />
+</head>
+<body>
+    <include file="Common:head"/>
+    <include file="Common:mynav"/>
+
+    <script type="text/javascript" src="__PUBLIC__/js/scrollnews.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/imgshow.js"></script>
+
+    <div class="main_all" style="clear:both;">
+        <div style="width:1033px; height:10px; float:left;"></div>
+        <div class="main">
+            <div class="main_a">
+                <div class="main_a_1">
+
+                    <!-- 大屏广告 start -->
+
+                    <div class="w733 fl" style="height:340px;clear:both;">
+                        <div class="highlight_tip">
+                            <ul class="tab clear">
+                                <volist name="screen_news" id="new">
+                                    <if condition="$i lt 7">
+                                        <li class="navigation">
+                                            <img src="__PUBLIC__/Uploads/s_{$new.filename}" width="99" height="48" />
+                                        </li>
+                                    </if>
+                                </volist>
+                                <li class="navigation">
+                                    <img src="__PUBLIC__/images/20130803211024_45057.jpg" alt="欢迎新同学" height="48" width="99" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="v_content_list">
+                            <ul class="clear">
+                                <volist name="screen_news" id="new">
+                                    <if condition="$i lt 7">
+                                        <li>
+                                            <a href="__GROUP__/News/index?show=new&nid={$new.id}" target="_blank">
+                                                <img src="__PUBLIC__/Uploads/m_{$new.filename}" width="706" height="337" />
+                                            </a>
+                                        </li>
+                                    </if>
+                                </volist>
+                                <li>
+                                    <a href="http://" target="_blank">
+                                        <img src="__PUBLIC__/images/20130803211024_45057.jpg" alt="欢迎新同学" width="706" height="337" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 大屏广告 end --> </div>
+                <div class="main_a_2">
+                    <DIV class="main_a_2_a">
+                        <div style="width:720px; height:13px; float:left"></div>
+                        <div style="float:left; width:200px; height:20px; margin-left:20px; font-size:20px;"> <strong>创意园区</strong>
+                        </div>
+                        <div class="more"> <strong><a href="#">更多</a></strong> 
+                            <img src="__PUBLIC__/images/jiantouY.jpg" />
+                        </div>
+                    </DIV>
+                    <div class="main_a_2_b">
+                        <div class="scrollNews" style="height:260px; width:720px; float:left">
+                            <ul>
+                                <volist name="ideas" id="idea">
+                                    <li>
+                                        <a href="__GROUP__/Chuangyi/displayidea?id={$idea.id}" class="tooltip" title="{$idea.title}">{$idea.title}</a>
+                                        <span class="time">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;{$idea.author}&nbsp;发表于：{$idea.time|date="Y-m-d H:i:s",###}
+                                        </span>
+                                    </li>
+                                </volist>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_a_3a">
+                    <div class="main_a_3">
+                        <div class="main_a_3_a">
+                            <div style="width:720px; height:8px; float:left"></div>
+                            <div style="float:left; width:200px; height:20px; margin-left:20px; font-size:20px; color:#3182aa">
+                                <strong>科技动态</strong>
+                            </div>
+                            <div class="more">
+                                <strong><a href="#">更多</a></strong> 
+                                <img src="__PUBLIC__/images/jiantouY.jpg" />
+                            </div>
+                        </div>
+                        <div class="main_kj">
+                            <div style="width:700px; height:10px; float:left;"></div>
+                            <div style="width:700px; height:110px; float:left;">
+                                <volist name="news" id="new">
+                                    <if condition="$i lt 6">
+
+                                        <div class="main_kj_1">
+                                            <div class="main_kj_2">
+                                                <a href="__GROUP__/News/index?show=new&nid={$new.id}">
+                                                    <img src="__PUBLIC__/Uploads/s_{$new.filename}" />
+                                                </a>
+                                            </div>
+                                            <a href="__GROUP__/News/index?show=new&nid={$new.id}">{$new.title|mb_substr=0,8,'utf-8'}</a>
+                                        </div>
+                                    </if>
+                                </volist>
+                            </div>
+                            <div style="width:700px; height:10px; float:left;"></div>
+                            <div class="main_kj_aaa">
+                                <div style="width:10px; height:70px; float:left;"></div>
+                                <ul>
+
+                                    <volist name="news" id="new">
+                                        <li>
+                                            <a href="__GROUP__/News/index?show=new&nid={$new.id}">{$new.title|mb_substr=0,15,'utf-8'}</a>
+                                            <span class="time">{$new.update_time|date='Y-m-d',###}</span>
+                                        </li>
+                                    </volist>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main_a_3a" style="height:200px;">
+                    <div class="main_a_3" style="height:175px;">
+                        <div class="main_a_3_a">
+                            <div style="width:720px; height:8px; float:left"></div>
+                            <div style="float:left; width:200px; height:20px; margin-left:20px; font-size:20px; color:#3182aa">
+                                <strong>名师讲座</strong>
+                            </div>
+                            <div class="more">
+                                <strong>
+                                    <a href="#">更多</a>
+                                </strong>
+                                <img src="__PUBLIC__/images/jiantouY.jpg" />
+                            </div>
+                        </div>
+                        <div style="width:700px; height:10px; float:left;"></div>
+                        <div class="main_ms">
+                            <div style="width:20px; height:110px; float:left"></div>
+                            <ul>
+                                <volist name="teachers" id="teacher">
+                                    <li>
+                                        <a href="__GROUP__/News/index/show/teacher/nid/{$teacher.id}">{$teacher.title|mb_substr=0,15,'utf-8'}</a>
+                                        <span class="timeother">{$teacher.update_time|date='Y-m-d',###}</span>
+                                    </li>
+                                </volist>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_b">
+                <div class="main_b_1">
+                    <div style="width:310px; height:160px; float:left">
+                        <div style="width:40px; height:160px; float:left"></div>
+                        <div class="changyi_1"></div>
+                        <div>
+                            <a href="__GROUP__/Chuangyi/index" target="_blank" class="promoted">
+                                <img src="__PUBLIC__/images/chaangyiA.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                    <hr color="#e4eff8" style="width:260px;" />
+                    <div style="width:310px; height:160px; float:left;">
+                        <div style="width:30px; height:25px; float:left;"></div>
+                        <div class="main_b_1_a">
+                            <strong>公告</strong>
+                        </div>
+                        <div class="main_b_1_b">
+                            <div style="width:30px; height:135px; float:left;"></div>
+                            <div style="width:270px; height:135px; float:left;">
+                                <div style="width:260px; height:7px; float:left;"></div>
+                                <foreach name='Relannounce' item='v'>
+                                    <ul>
+                                        <li class="Relannounce_list">
+                                            <a href="{:U('Relannounce/index',array('id' =>
+                                                $v['id']))}" class="linkscroll">{$v.title|mb_substr=0,14,'utf-8'}
+                                            </a>
+                                        </li>
+                                        <li class="time">
+                                            <span>{$v.updata_time|date="Y-m-d",###}</span>
+                                        </li>
+                                    </ul>
+                                </foreach>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_b_2">
+                    <div class="main_b_2_a">
+                        <div style="width:308px; height:13px; float:left"></div>
+                        <div style="float:left; width:100px; height:20px; margin-left:20px; font-size:20px;">
+                            <strong>热门赛事</strong>
+                        </div>
+                        <div class="more">
+                            <strong>
+                                <a href="__GROUP__/Game/game">更多</a>
+                            </strong>
+                            <img src="__PUBLIC__/images/jiantouY.jpg" />
+                        </div>
+                    </div>
+                    <div class="hotwork">
+                        <div style="width:4px; height:300px; float:left;"></div>
+                        <div class="main_b_2_b">
+                            <div style=" width:42px; height:338px; float:left;"></div>
+                            <div style=" width:245px; height:13px; float:left;"></div>
+                            <ul>
+                                <volist name="gamelist" id="vo">
+                                    <li>
+                                        <a href="__GROUP__/Game/index?id={$vo.id}">{$vo.title|mb_substr=0,15,'utf-8'}</a>
+                                    </li>
+                                </volist>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_b_3">
+                    <div style="width:4px; height:370px; float:left;"></div>
+
+                    <div class="main_b_3_a">
+                        <div class="main_b_3_a1">
+                            <div style="width:300px; height:13px; float:left"></div>
+                            <div style="float:left; width:100px; height:20px; margin-left:20px; font-size:20px;">
+                                <strong>科技达人</strong>
+                            </div>
+                            <div class="more">
+                                <strong>
+                                    <a href="#">更多</a>
+                                </strong>
+                                <img src="__PUBLIC__/images/jiantouY.jpg" />
+                            </div>
+                        </div>
+
+                        <div class="main_b_3_a2">
+                            <div style="width:298px; height:14px; float:left;"></div>
+                            <div style="width:12px; height:306px; float:left;"></div>
+
+                            <volist name="vip" id="vi">
+
+                                <div class="main_b_3_dr">
+                                    <div style="width:93px; height:7px; float:left;"></div>
+                                    <div style="width:10px; height:92px; float:left;"></div>
+                                    <div class="main_b_3_dr_a">
+                                        <div class="main_b_3_dr_b">
+                                            <div style="width:65px; height:8px; float:left;"></div>
+                                            <a href="__GROUP__/Myzone/mymessage/id/{$vi.uid}">
+                                                <if condition="$vi.avatar neq NULL">
+                                                    <img width="48" height="48" alt="user name" src="__PUBLIC__/Uploads/s_{$vi.avatar}">
+                                                    <else/>
+                                                    <img width="48" height="48" alt="user name" src="__PUBLIC__/images/qz_middle.jpg">
+                                                </if>
+                                            </a>
+                                        </div>
+                                        <a href="__GROUP__/Myzone/mymessage/id/{$vi.uid}">{$vi.email}</a>
+                                    </div>
+                                </div>
+                            </volist>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include file="Common:foot" />
+</body>
+</html>

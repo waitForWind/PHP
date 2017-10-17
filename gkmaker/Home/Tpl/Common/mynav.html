@@ -1,0 +1,27 @@
+<script src="__PUBLIC__/js/jquery.movebg.js"></script>
+<div class="daohang_a"  id="mynav">
+    <div class="daohang">
+        <div class="nav">
+            <ul>
+                <li><a href="__GROUP__/Index/index" >首页</a></li>
+                <li><a href="__GROUP__/Listmember/index" >人才宝库</a></li>
+                <li><a href="__GROUP__/Game/game"  >赛事大厅</a></li>
+                <li><a href="__GROUP__/Guestbook/index" >留言反馈</a></li>
+                <li><a href="__GROUP__/Science/index">科技立项</a></li>          
+                <li><a href="__GROUP__/Ourmaker/index" target="_blank" >柳州maker</a></li>
+            </ul>
+            <!--移动的滑动-->
+        <div class="move-bg"></div>
+        <!--移动的滑动 end-->
+        </div>
+        <div class="guanzhu">&nbsp;&nbsp; <a target="_blank" href="http://weibo.com/bdmaker"><img src="__PUBLIC__/images/sinaBG1.png"></a> &nbsp;&nbsp;
+    </div>
+    </div>
+</div>
+<script>
+$(function(){
+    $(".nav").movebg({width:128/*滑块的大小*/,extra:40/*额外反弹的距离*/,speed:300/*滑块移动的速度*/,rebound_speed:400/*滑块反弹的速度*/});
+})
+</script>
+
+

@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+h3{
+	color:#0389c6;
+	font-size:16px;
+}
+big{
+	color:#0389c6;
+	font-size:14px;
+}
+	
+.fast_all{
+	width:1033px;
+	height:auto;
+	margin:0 auto;
+}
+.fast_top{
+	width:1033px;
+	height:25px;
+	float:left;
+}
+
+.fast{
+	width:1031px;
+	height:auto;
+	float:left;
+	border:solid 1px #e0e0e0;
+	font-family:"微软雅黑";
+}
+.fast_a{
+	width:1021px;
+	height:50px;
+	float:left;
+	padding-left:10px;
+}
+.fast_b{
+	width:1021px;
+	height:25px;
+	float:left;
+	padding-left:10px;
+}
+.fast_b a{
+	color:#0389c6;
+	font-size:14px;
+}
+.fast_b a:hover{
+	color:#ff8b00;
+	font-size:14px;
+}
+.fast_c{
+	width:1031px;
+	height:auto;
+	float:left;
+}
+.fast_c_L{
+	width:650px;
+	height:auto;
+	float:left;
+	font-size:14px;
+}
+
+.fast_c_L_top{
+	width:650px;
+	height:45px;
+	float:left;
+}
+.fast_c_L_left{
+	width:170px;
+	height:240px;
+	float:left;
+}
+.fast_c_L_right{
+	width:480px;
+	height:auto;
+	float:left;
+}
+.fast_c_L_right a{
+	color:#0389c6;
+	font-size:16px;
+}
+.fast_c_L_right a:hover{
+	color:#f8a48c;
+	font-size:16px;
+}
+.fast_c_L_right input:hover{
+	
+	border:solid 2px #f6997d;
+}
+
+.fast_c_L_right tr{
+	width:480px;
+	height:33px;
+	float:left;
+}
+.fast_c_L_right td{
+	min-width:90px!important;
+	width:auto;
+	float:left;
+}
+.fast_c_R{
+	width:380px;
+	height:300px;
+	float:left;
+	background:url(../images/fastRleft.jpg) no-repeat;
+}
+.fast_c_R_top{
+	width:380px;
+	height:85px;
+	float:left;
+}
+.fast_c_R_left{
+	width:112px;
+	height:205px;
+	float:left;
+}
+.fast_c_R_a{
+	width:225px;
+	height:72px;
+	float:left;
+	color:#FFF;
+	font-size:30px;
+}
+
+div.fast_c_R_a{
+	background:url(../images/fastBaoming.jpg) no-repeat;
+}
+
+div.fast_c_R_a:hover{
+	background:url(../images/fastBaoming01.jpg) no-repeat;
+}
+.fast_c_R_a_top{
+	width:225px;
+	height:15px;
+	float:left;
+}
+.fast_c_R_a_left{
+	width:30px;
+	height:52px;
+	float:left;
+}
+
+
+.fast_bottom{
+	width:1033px;
+	height:25px;
+	margin:0 auto;
+	float:left;
+}
+.fast_d{
+	width:1031px;
+	height:64px;
+	float:left;
+}
+
+.fast_d_left{
+	width:447px;
+	height:64px;
+	float:left;
+}
+.fast_d_a{
+	width:123px;
+	height:44px;
+	float:left;
+	background:url(../images/fastTjiao.jpg) no-repeat;
+}
+div.fast_d_a{
+	width:123px;
+	height:44px;
+	float:left;
+	background:url(../images/fastTjiao.jpg) no-repeat;
+}
+div.fast_d_a:hover{
+	width:123px;
+	height:44px;
+	float:left;
+	background:url(../images/fastTjiao01.jpg) no-repeat;
+}
+
+/**龙忠庭改写**/
+.place {
+    background: url("../images/icon15.gif") no-repeat scroll 0 0 transparent;
+    clear: both;
+    color: #FFFFFF;
+    height: 24px;
+    line-height: 24px;
+    margin: 4px 0 0 -24px;
+    padding: 0 0 9px 18px;
+    position: relative;
+    width: 316px;
+}
+.place a{
+	 color: #FFFFFF;
+}
+.fast_c_L_right input[type='text'],.zhuce_a_a input[type='text']{
+	border: 1px solid #C7C7C7;
+	height:25px;
+	padding-left:5px;
+}
+.fast_c_L_right select,.zhuce_a_a select {
+	border: 1px solid #C7C7C7;
+}
+
+.apply_hover{
+	width:123px;
+	height:44px;
+	float:left;
+	background:url(../images/fastTjiao01.jpg) no-repeat;
+
+}
+.xieyi{
+	border:0;
+	height:0;
+}
+
+.fast_c_R_a div{
+	padding:15px 20px 0px 40px;
+}
+/**注册密码框样式**/
+.zhuce input[type='password']{
+	border: 1px solid #C7C7C7;
+	height:25px;
+	padding-left:5px;
+}

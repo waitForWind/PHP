@@ -1,0 +1,453 @@
+@charset "utf-8";
+/* CSS Document */
+
+.kongjian_all{
+	width:1033px;
+	height:auto;
+	margin:0 auto;
+}
+.kongjian_top{
+	width:1033px;
+	height:16px;
+	float:left;
+}
+.kongjian{
+	width:1033px;
+	height:auto;
+	float:left;
+	font-family:"微软雅黑";
+}
+.kongjian_L{
+	width:177px;
+	height:673px;
+	float:left;
+	border:solid 1px #dadada;
+	background:#ebf1f4;
+}
+.kongjian_L_a{
+	width:177px;
+	height:220px;
+	float:left;	
+}
+.kongjian_L_a_top{
+	width:177px;
+	height:20px;
+	float:left;
+}
+.kongjian_L_a_left{
+	width:20px;
+	height:200px;
+	float:left;
+}
+.kongjian_L_a_a{
+	width:131px;
+	height:200px;
+	float:left;
+}
+.kongjian_L_a_a_1{
+	width:127px;
+	height:123px;
+	float:left;
+	border:solid 2px #d4d4d4;
+	background:#FFF;
+	text-align:center;
+	padding-top:0;
+}
+.kongjian_L_a_a_2{
+	width:131px;
+	height:30px;
+	float:left;
+	text-align:center;
+}
+.kongjian_L_a_a_3{
+	width:131px;
+	height:2px;
+	float:left;
+	background:url(../images/kongjianHT.jpg) no-repeat;
+}
+.kongjian_L_a_a_4{
+	width:131px;
+	height:9px;
+	float:left;
+}
+.kongjian_L_a_a_5{
+	width:131px;
+	height:20px;
+	float:left;
+	text-align:center;
+}
+.kongjian_L_b{
+	width:177px;
+	height:2px;
+	float:left;
+	background:url(../images/nameX.jpg) repeat-x;
+}
+.kongjian_L_c{
+	width:177px;
+	height:440px;
+	float:left;
+	color:#8e8882;
+	font-size:10px;
+}
+.kongjian_L_c a{
+	color:#156ab9;
+	font-size:11px;
+}
+.kongjian_L_c a:hover{
+	color:#F2710E;
+	font-size:11px;
+}
+.kongjian_L_c ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:400px;
+}
+.kongjian_L_c li{
+	width:160px;
+	height:auto;
+	float:left;
+}
+.kongjian_L_c_left{
+	width:5px;
+	height:440px;
+	float:left;
+}
+.kongjian_L_c_top{
+	width:172px;
+	height:25px;
+	float:left;
+	color:#fd9002;
+	padding-top:5px;
+	font-size:16px;
+}
+.kongjian_M{
+	width:16px;
+	height:675px;
+	float:left;
+}
+/******兼容IE6，张旭设定了margin******/
+.kongjian_R{
+	width:835px;
+	height:auto;
+	float:left;
+	margin-top:0px;
+	margin-right:-26px;
+	
+}
+.kongjian_R_a{
+	width:835px;
+	height:30px;
+	float:left;
+}
+.kongjian_R_b{
+	width:835px;
+	height:280px;
+	float:left;
+}
+.kongjian_R_b_top{
+	width:835px;
+	height:10px;
+	float:left;
+}
+.kongjian_R_b_L{
+	width:580px;
+	height:270px;
+	float:left;
+}
+.kongjian_R_b_L_a{
+	width:570px;
+	height:22px;
+	float:left;
+	color:#fd9002;
+	font-size:14px;
+	padding-left:5px;
+}
+.kongjian_R_b_L_b{
+	width:580px;
+	height:2px;
+	float:left;
+	background:url(../images/kongjianXinxi.jpg) no-repeat;
+}
+.kongjian_R_b_L_c{
+	width:580px;
+	height:250px;
+	float:left;
+}
+.kongjian_R_b_L_c ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:560px;
+	height:240px;
+	margin-top:8px;
+	margin-left:10px;
+}
+.kongjian_R_b_L_c li{
+	width:560px;
+	height:23px;
+	float:left;
+}
+.kongjian_R_b_L_c01{
+	color:#2e2e2e;
+	font-size:14px;
+	float:left;
+	width:auto;
+}
+.kongjian_R_b_L_c02{
+	color:#0389c6;
+	font-size:14px;
+	float:left;
+	width:auto;
+}
+.kongjian_R_b_LR{
+	width:25px;
+	height:270px;
+	float:left;
+}
+
+.kongjian_R_b_R{
+	width:230px;
+	height:270px;
+	float:left;
+}
+.kongjian_R_b_R_a{
+	width:225px;
+	height:auto;
+	float:left;
+	color:#fd9002;
+	font-size:14px;
+	padding-left:5px;
+	
+}
+.kongjian_R_b_R_a table{
+	margin:0;
+}
+.kongjian_R_b_R_a a{
+	color:#156ab9;
+	font-size:11px;
+}
+.kongjian_R_b_R_a a:hover{
+	color:#f6b55d;
+	font-size:11px;
+}
+.kongjian_R_b_R_b{
+	width:230px;
+	height:2px;
+	float:left;
+	background:url(../images/kongjianXinxi.jpg) repeat-x;
+}
+.kongjian_R_b_R_c{
+	width:230px;
+	height:250px;
+	float:left;
+}
+
+
+.kongjian_R_c{
+	width:835px;
+	height:auto;
+	float:left;
+	color:#fd9002;
+}
+.kongjian_R_c_top{
+	width:830px;
+	height:22px;
+	float:left;
+	padding-left:5px;
+	font-size:14px;
+}
+.kongjian_R_c_a{
+	width:550px;
+	height:2px;
+	float:left;
+	background:url(../images/kongjianXinxi.jpg) left center repeat-x;
+}
+.kongjian_R_c_b{
+	width:835px;
+	height:10px;
+	float:left;
+}
+.kongjian_R_c_c{
+	width:835px;
+	height:130px;
+	float:left;
+}
+.kongjian_R_c_c textarea{
+	width:800px;
+	height:120px;
+	border: 1px solid #CCCCCC;
+	color: #333333;
+}
+.kongjian_R_c_d{
+	width:835px;
+	height:40px;
+	float:left;
+}
+.kongjian_R_d{
+	width:835px;
+	height:70px;
+	float:left;
+	font-size:14px;
+}
+.kongjian_R_d small{
+	color:#999999;
+	font-size:12px;
+}
+.kongjian_R_d a{
+	color:#00759b;
+	font-size:16px;
+	
+}
+.kongjian_R_d a:hover{
+	color:#fd9002;
+	font-size:16px;
+	
+}
+.kongjian_R_d_top{
+	width:835px;
+	height:10px;
+	float:left;
+}
+.kongjian_R_d_left{
+	width:70px;
+	height:60px;
+	float:left;
+}
+.kongjian_R_d ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.kongjian_R_d li{
+	height:auto;
+	width:760px;
+	float:left;
+}
+.kongjian_R_e{
+	width:820px;
+	height:2px;
+	float:left;
+	background:url(../images/nameX.jpg) repeat-x;
+}
+
+
+.kongjian_bottom{
+	width:1033px;
+	height:16px;
+	float:left;
+}
+
+
+/***王洋改写*/
+.place {
+    background: url("../images/icon15.gif") no-repeat scroll 0 0 transparent;
+    clear: both;
+    color: #FFFFFF;
+    height: 24px;
+    line-height: 24px;
+    margin: 6px 0 0 -13px;
+    padding: 0 0 9px 18px;
+    position: relative;
+    width: 316px;
+}
+.place a{
+	 color: #FFFFFF;
+}
+.position{
+	border: 1px solid #DDDDDD;
+}
+.reply {
+    background: url("./images/btn_1.png") no-repeat scroll 0 bottom transparent;
+    color: #FFFFFF;
+    display:inline-block;
+    height: 20px;
+    width: 60px;
+	text-align: center;
+	line-height: 21px;
+	margin-left:10px;
+	margin-top:6px;
+}
+.line{
+	width:90%;
+	height:2px;
+	float:left;
+	margin-top:4px;
+	background:url(./images/line_1.gif) repeat-x;
+}
+
+.limitword{
+	text-align:right;
+	width:800px;
+}
+
+/*我参加的比赛*/
+.kongjian_R_b_R_c ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:400px;
+}
+.kongjian_R_b_R_c ul li{
+	width:160px;
+	height:auto;
+	float:left;
+	background:url(../images/yidianBG.jpg) no-repeat;
+	padding-left:10px;
+	margin-top:5px;
+}
+.kongjian_R_b_R_c ul li a{
+	color:#137ac4;
+	font-size:12px;
+}
+.kongjian_R_b_R_c ul li  a:hover{
+	color:#F2710E;
+}
+
+/******张旭补加*******/
+
+
+
+.kongjian_R_xu{
+	width:775px;
+	height:70px;
+	float:left;
+	font-size:14px;
+	margin-left:40px;
+}
+.kongjian_R_xu small{
+	color:#999999;
+	font-size:12px;
+}
+.kongjian_R_xu a{
+	color:#00759b;
+	font-size:16px;
+	
+}
+.kongjian_R_xu a:hover{
+	color:#fd9002;
+	font-size:16px;
+	
+}
+.kongjian_R_xu_top{
+	width:775px;
+	height:10px;
+	float:left;
+}
+.kongjian_R_xu_left{
+	width:70px;
+	height:60px;
+	float:left;
+	margin-top:-20px;
+}
+.kongjian_R_xu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.kongjian_R_xu li{
+	margin-left:5px;
+	height:20px;
+	width:700px;
+	float:left;
+}

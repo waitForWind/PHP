@@ -1,0 +1,150 @@
+[ 2014-09-05T09:16:20+08:00 ] 127.0.0.1 /gkmaker/list.php?show=teacher&cid=4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.005425s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.002451s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status` FROM `pa_news` WHERE ( status=1 ) ORDER BY `update_time` DESC LIMIT 0 , 20   [ RunTime:0.000233s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000762s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011210s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000481s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000473s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000311s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2014-09-05T09:16:31+08:00 ] 127.0.0.1 /gkmaker/list.php?show=news&cid=4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.003691s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.002927s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status` FROM `pa_news` WHERE ( status=1 ) ORDER BY `update_time` DESC LIMIT 0 , 20   [ RunTime:0.000216s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000921s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010858s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000831s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000556s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000398s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002439s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2014-09-05T09:17:05+08:00 ] 127.0.0.1 /gkmaker/list.php?show=&cid=4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.003205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.002643s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status` FROM `pa_news` WHERE ( status=1 ) ORDER BY `update_time` DESC LIMIT 0 , 20   [ RunTime:0.000200s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000942s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010148s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000550s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000528s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000403s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002103s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2014-09-05T09:17:12+08:00 ] 127.0.0.1 /gkmaker/list.php?show=teacher
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] Undefined index: cid D:\xampp\htdocs\gkmaker\list\Lib\Action\IndexAction.class.php 第 5 行.
+
+[ 2014-09-05T09:17:47+08:00 ] 127.0.0.1 /gkmaker/list.php?cid=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.002509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_teacher` LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.002420s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status` FROM `pa_teacher` WHERE ( status=1 ) ORDER BY `update_time` DESC LIMIT 0 , 20   [ RunTime:0.000260s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000926s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011440s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000663s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000620s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000488s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002498s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2014-09-05T09:17:58+08:00 ] 127.0.0.1 /gkmaker/list.php?cid=4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.002641s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.003075s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status` FROM `pa_news` WHERE ( status=1 ) ORDER BY `update_time` DESC LIMIT 0 , 20   [ RunTime:0.000219s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000948s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000991s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010039s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000634s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000662s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000409s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002354s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2014-09-05T09:18:02+08:00 ] 127.0.0.1 /gkmaker/list.php?cid=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.002582s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_teacher` LIMIT 1   [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.002706s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status` FROM `pa_teacher` WHERE ( status=1 ) ORDER BY `update_time` DESC LIMIT 0 , 20   [ RunTime:0.000285s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000835s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000877s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009850s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000699s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001339s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000417s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003121s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000635s ]
+

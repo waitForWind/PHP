@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>科技新闻管理-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='科技新闻管理 > 科技新闻列表';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap">
+    <include file="Common:head" />
+    <div class="mainBody">
+        <include file="Common:left" />
+        <div id="Right">
+            <div class="Item hr">
+                <div class="current">添加教师</div>
+            </div>
+            <form action="__URL__/addTeacher" method="post" enctype="multipart/form-data">
+
+
+
+
+
+                <input type="hidden" id="num" name="num" value=2 />
+                <table width="480" border="0">
+                    <tbody>
+                    <tr>
+                        <td align="right">教师1姓名:</td>
+                        <td>
+                        <select name="info[teacher1]">
+                            <option selected="selected" value="">请选择</option>
+                            <volist name="info" id="vo">
+                                <option value="{$vo.email}">{$vo.email}</option>
+                            </volist>
+
+                        </select>
+                        </td>
+                    </tr>
+                    <tbody id="team_apply"></tbody>
+                    <tr>
+
+                        <td align="right" height="100"><input type="button" id="addmore" value="增加教师+" name="addmore" onclick="add()"></td>
+                    </tr>
+                    </tbody><tbody id="team_apply"></tbody>
+                    <tbody><tr>
+                    </tr>
+
+
+
+                    <tbody><tr>
+                    </tr>
+
+                    </tbody>
+
+
+
+                <input type="hidden" name="info[uid]" value="{$inf.id}"/>
+                <tr>
+                    <td align="right">操作：</td>
+                    <td> <button class="btn submit">提交</button></td>
+                </tr>
+                </table>
+
+            </form>
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+
+<script type="text/javascript">
+
+    function add(){
+        var num = document.getElementById("num").value;
+
+
+        //第一个tr 姓名
+        var html='<tr>';
+        html+='<tr>';
+        html+='<td align="right">教师'+num+'姓名:</td><td>';
+        html+='<select name="info[teacher'+num+']">';
+        html+='<option selected="selected" value="">请选择</option>';
+        html+='<volist name="info" id="vo">';
+        html+='<option value="{$vo.email}">{$vo.email}</option>';
+        html+='</volist>';
+        html+='</select>';
+        html+='</td>';
+        html+='</tr>';
+
+        //追加元素
+        $(html).appendTo("#team_apply");
+
+        document.getElementById("num").value++;
+
+
+    }
+
+</script>
+
+
+
+
+</body>
+</html>

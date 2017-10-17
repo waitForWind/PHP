@@ -1,0 +1,422 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>大学生科创中心欢迎您！</title>
+    <meta name="keywords" content="大学生科创中心,科技交流,科技交友,寻找交友,创意孵化,在线报名,热门比赛" />
+    <meta name="description" content="大学生科创中心是一个科技学术交友的平台，并兼有科技交流、名师检索、资料下载、赛事预览、在线报名等功能" />
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/main.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/daycoming.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/cookieclass.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/iealert.js" ></script>
+    <script type="text/javascript" src="__PUBLIC__/js/fixednav.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/baidu_search.js"></script>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/main.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/index.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/showpic.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/iealert.css" />
+</head>
+<body>
+<div class="head">
+    <div class="head_a" >
+        <a href="#">
+            <img src="__PUBLIC__/images/headlogo.jpg" width="260" height="95" alt="">
+        </a>
+    </div>
+    <div style="width:130px; height:95px; float:left;">
+    </div>
+    <div class="head_b">
+    </div>
+    <div class="head_c">
+        <div class="head_cinput">
+            <form name="f1" onsubmit="return g(this)"  id="matchs_serach">
+                <input type="text"  name="word"  x-webkit-speech placeholder="百度全站搜索" />
+                <div style="display:none;">
+                    <input name=tn type=hidden value="bds">
+                    <input name=cl type=hidden value="3">
+                    <input name=ct type=hidden>
+                    <input name=si type=hidden value="http://localhost:88/gkmaker/">
+                    <input name=s type=radio>
+                    <input name=s type=radio checked>
+                </div>
+            </form>
+        </div>
+        <div class="head_c_1"> <a href="javascript:void(0);" id="search"><img src="__PUBLIC__/images/sousuoFDJ.jpg" /></a>
+        </div>
+        <div class="head_c_2">
+            <div class="reg">
+                <if condition="$uid eq 0">
+
+                <a href="__GROUP__/Member/reg">免费注册</a>&nbsp;|&nbsp;
+                <a href="__GROUP__/Member/login">登&nbsp;陆</a>
+              <else/>
+                    <span style="color:#006495;">{$email}</span>
+                    <a class="notice_num" href="__GROUP__/Myzone/index">20</a>我的：
+                    <a href="__GROUP__/Myzone/zone">空间</a>
+                    <span id="outcome"></span>
+                    <a href="__GROUP__/Myzone/secureqa">设置</a>&nbsp;|
+                    <a href="__GROUP__/Member/loginout">退出</a>
+                </if>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+<div class="daohang_a"  id="mynav">
+    <div class="daohang">
+
+        <div class="nav">
+            <ul>
+                <li><a href="__GROUP__/Index/index" class="current">首页</a></li>
+                <li><a href="__GROUP__/Listmember/index" >人才宝库</a></li>
+                <li> <a href="__GROUP__/Game/game" class="promoted" >赛事大厅</a></li>
+                <li><a href="__GROUP__/Guestbook/index" >留言反馈</a></li>
+                <li><a href="__GROUP__/Science/index">科技立项</a></li>
+                <!--<li><a href="__GROUP__/Venture/index">创业园</a></li>-->
+                <!--<li><a href="__GROUP__/Venture/index">创业园</a></li>-->
+                <li><a href="__GROUP__/Ourmaker/index" target="_blank" class="promoted">柳州maker</a></li>
+            </ul>
+        </div>
+        <div class="guangzhu">&nbsp;&nbsp; <a href="#" target="_blank"><img src="__PUBLIC__/images/sina.png"/></a> &nbsp;&nbsp;
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/js/scrollnews.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/imgshow.js"></script>
+
+<div class="main_all">
+<div style="width:1033px; height:10px; float:left;">
+</div>
+<div class="main">
+<div class="main_a">
+<div class="main_a_1">
+
+    <!-- 大屏广告 start -->
+
+    <div class="w733 fl" style="height:340px;">
+        <div class="highlight_tip">
+            <ul class="tab clear">
+                <li class="navigation"><img src="__PUBLIC__/images/20140628115342_69225.jpg" alt="云作坊重新回归计通学院" height="48" width="99"/></li>
+                <li class="navigation"><img src="__PUBLIC__/images/20140526023714_71381.jpg" alt="掌上通获奖" height="48" width="99"/></li>
+                <li class="navigation"><img src="__PUBLIC__/images/20140523145727_79108.jpg" alt="创青春 2014" height="48" width="99"/></li>
+                <li class="navigation"><img src="__PUBLIC__/images/20140417101741_90646.jpg" alt="云作坊举行四周年定向越野活动" height="48" width="99"/></li>
+                <li class="navigation"><img src="__PUBLIC__/images/20140319140940_53154.jpg" alt="云作坊掌上通3.4发布会圆满成功" height="48" width="99"/></li>
+                <li class="navigation"><img src="__PUBLIC__/images/20140112013254_91087.jpg" alt="yuncms" height="48" width="99"/></li>
+                <li class="navigation"><img src="__PUBLIC__/images/20130803211024_45057.jpg" alt="欢迎新同学" height="48" width="99"/></li>
+
+            </ul>
+        </div>
+        <div class="v_content_list">
+            <ul class="clear">
+                <li><a href="http://www.kjjlpt.com/shownews.php?show=news&nid=274" target="_blank"><img src="__PUBLIC__/images/20140628115342_69225.jpg" alt="云作坊重新回归计通学院" width="706" height="337"/></a></li>
+                <li><a href="http://www.kjjlpt.com/shownews.php?show=news&nid=270" target="_blank"><img src="__PUBLIC__/images/20140526023714_71381.jpg" alt="掌上通获奖" width="706" height="337"/></a></li>
+                <li><a href="http://www.chuangqingchun.net/" target="_blank"><img src="__PUBLIC__/images/20140523145727_79108.jpg" alt="创青春 2014" width="706" height="337"/></a></li>
+                <li><a href="http://www.kjjlpt.com/shownews.php?show=news&nid=267" target="_blank"><img src="__PUBLIC__/images/20140417101741_90646.jpg" alt="云作坊举行四周年定向越野活动" width="706" height="337"/></a></li>
+                <li><a href="http://temp.yunstudio.net/sites/Demo/pub/dsj/20143191624.html" target="_blank"><img src="__PUBLIC__/images/20140319140940_53154.jpg" alt="云作坊掌上通3.4发布会圆满成功" width="706" height="337"/></a></li>
+                <li><a href="http://www.yunstudio.net" target="_blank"><img src="__PUBLIC__/images/20140112013254_91087.jpg" alt="yuncms" width="706" height="337"/></a></li>
+                <li><a href="http://" target="_blank"><img src="__PUBLIC__/images/20130803211024_45057.jpg" alt="欢迎新同学" width="706" height="337"/></a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- 大屏广告 end -->
+</div>
+<div class="main_a_2">
+    <DIV class="main_a_2_a">
+        <div style="width:720px; height:13px; float:left"> </div>
+        <div style="float:left; width:200px; height:20px; margin-left:20px; font-size:20px;"> <strong>创意园区</strong>
+        </div>
+        <div class="more">
+            <strong><a href="#">更多</a></strong><img src="__PUBLIC__/images/jiantouY.jpg" />
+        </div>
+    </DIV>
+    <div class="main_a_2_b">
+        <div class="scrollNews" style="height:260px; width:720px; float:left">
+            <ul>
+                <volist name="ideas" id="idea">
+                <li>
+                    <a href="__GROUP__/Chuangyi/displayidea?id={$idea.id}" class="tooltip" title="{$idea.title}">{$idea.title}</a>
+                    <span class="time">&nbsp;&nbsp;&nbsp;&nbsp;{$idea.author}&nbsp;发表于：{$idea.time|date="Y-m-d H:i:s",###}</span>
+                </li>
+                </volist>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="main_a_3a">
+    <div class="main_a_3">
+        <div class="main_a_3_a">
+            <div style="width:720px; height:8px; float:left"> </div>
+            <div style="float:left; width:200px; height:20px; margin-left:20px; font-size:20px; color:#3182aa">
+                <strong>科技动态</strong>
+            </div>
+            <div class="more">
+                <strong><a href="#">更多</a></strong><img src="__PUBLIC__/images/jiantouY.jpg" />
+            </div>
+        </div>
+        <div class="main_kj">
+            <div style="width:700px; height:10px; float:left;"> </div>
+            <div style="width:700px; height:110px; float:left;">
+               <volist name="news" id="new">
+                   <if condition="$i lt 6">
+
+
+                       <div class="main_kj_1">
+                           <div class="main_kj_2">
+                               <a href="__GROUP__/News/index/show/new/nid/{$new.id}"><img src="/uploads/image/20140526/20140526021211_53935.jpg" /></a>
+                           </div>
+                           <a href="__GROUP__/News/index/show/new/nid/{$new.id}">{$new.title}</a>
+                       </div>
+
+
+                   </if>
+
+               </volist>
+            </div>
+
+            <div style="width:700px; height:10px; float:left;"></div>
+            <div class="main_kj_aaa">
+                <div style="width:10px; height:70px; float:left;"></div>
+                <ul>
+                    <volist name="news" id="new">
+                    <li><a href="__GROUP__/News/index/show/new/nid/{$new.id}">{$new.title}</a>
+                        <span class="time">{$new.update_time|date='Y-m-d',###}</span>
+                    </li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main_a_3a" style="height:200px;">
+    <div class="main_a_3" style="height:175px;">
+        <div class="main_a_3_a">
+            <div style="width:720px; height:8px; float:left"> </div>
+            <div style="float:left; width:200px; height:20px; margin-left:20px; font-size:20px; color:#3182aa">
+                <strong>名师讲座</strong>
+            </div>
+            <div class="more" >
+                <strong><a href="#">更多</a></strong><img src="__PUBLIC__/images/jiantouY.jpg" />
+            </div>
+        </div>
+        <div style="width:700px; height:10px; float:left;"></div>
+        <div class="main_ms">
+            <div style="width:20px; height:110px; float:left"></div>
+            <ul>
+                <volist name="teachers" id="teacher">
+                <li><a href="__GROUP__/News/index/show/teacher/nid/{$teacher.id}">{$teacher.title}</a>
+                    <span class="timeother">{$teacher.update_time|date='Y-m-d',###}</span>
+                </li>
+                </volist>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="main_b">
+    <div class="main_b_1">
+        <div style="width:310px; height:160px; float:left">
+            <div style="width:40px; height:160px; float:left">
+            </div>
+            <div class="changyi_1">
+            </div>
+            <div>
+
+                <!--<a href="__GROUP__/Share/index"><img src="__PUBLIC__/images/chaangyiA.jpg" />-->
+                <a href="http://localhost:88/wiseschool" target="_blank" class="promoted"><img src="__PUBLIC__/images/chaangyiA.jpg" />
+                </a>
+            </div>
+        </div>
+        <hr color="#e4eff8" style="width:260px;" />
+        <div style="width:310px; height:160px; float:left;">
+            <div style="width:30px; height:25px; float:left;">
+            </div>
+            <div class="main_b_1_a">
+                <strong>公告</a> </strong>
+            </div>
+            <div class="main_b_1_b">
+                <div style="width:30px; height:135px; float:left;">
+                </div>
+                <div style="width:270px; height:135px; float:left;">
+                    <div style="width:260px; height:7px; float:left;"> </div>
+                    <foreach name='Relannounce' item='v'>
+                    <ul>
+                        <li><a href="{:U('Relannounce/index',array('id' => $v['id']))}" class="linkscroll" >{$v.title}</a><span>{$v.updata_time|date="Y-m-d",###}</span></li>
+                    </ul>
+                    </foreach>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_b_2">
+        <div class="main_b_2_a">
+            <div style="width:308px; height:13px; float:left">
+            </div>
+            <div style="float:left; width:100px; height:20px; margin-left:20px; font-size:20px;">
+                <strong>热门赛事</strong>
+            </div>
+            <div class="more">
+                <strong><a href="__GROUP__/Game/game">更多</a></strong><img src="__PUBLIC__/images/jiantouY.jpg" />
+            </div>
+        </div>
+        <div class="hotwork">
+            <div style="width:4px; height:300px; float:left;"></div>
+            <div class="main_b_2_b">
+                <div style=" width:42px; height:338px; float:left;">   </div>
+                <div style=" width:245px; height:13px; float:left;">  </div>
+                <ul>
+                    <volist name="gamelist" id="vo">  <li> <a href="__GROUP__/Game/index/id/{$vo.id}">{$vo.title}</a></li></volist>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main_b_3">
+        <div style="width:4px; height:370px; float:left;"> </div>
+        <div class="main_b_3_a">
+            <div class="main_b_3_a1">
+                <div style="width:300px; height:13px; float:left">
+                </div>
+                <div style="float:left; width:100px; height:20px; margin-left:20px; font-size:20px;"><strong>科技达人</strong></div>
+                <div class="more">
+                    <strong><a href="#">更多</a></strong><img src="__PUBLIC__/images/jiantouY.jpg" />
+                </div>
+            </div>
+            <div class="main_b_3_a2">
+                <div style="width:298px; height:14px; float:left;"> </div>
+                <div style="width:12px; height:306px; float:left;"> </div>
+
+                <volist name="vip" id="vi">
+
+                <div class="main_b_3_dr">
+                    <div style="width:93px; height:7px; float:left;"> </div>
+
+                    <div style="width:10px; height:92px; float:left;"></div>
+
+                    <div class="main_b_3_dr_a">
+                        <div class="main_b_3_dr_b">
+                            <div style="width:65px; height:8px; float:left;"> </div>
+                            <a href="__GROUP__/Myzone/mymessage/id/{$vi.uid}"><img width="40" src="__PUBLIC__/Uploads/{$vi.avatar}" /></a>
+                        </div>
+                        <a href="__GROUP__/Myzone/mymessage/id/{$vi.uid}">{$vi.email}</a>
+                    </div>
+                </div>
+
+                </volist>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+<div class="jieshu">
+
+    <div class="lianjie">
+        <div style="width:1033px; height:20px; float:left;">
+        </div>
+        <div class="lianjie_a23">
+            <div class="lianjie_a">
+                <div class="lianjie_a_1"><strong>合作伙伴：</strong></div>
+                <ul>
+                    <li><a href="#" target="_blank">智慧校园</a></li>
+                    <li><a href="#" target="_blank">chytth</a></li>
+                    <li><a href="#" target="_blank">csdn</a></li>
+                    <li><a href="__GROUP__/Ourmaker/index" target="_blank">柳州maker</a></li>
+                </ul>
+            </div>
+            <div class="lianjie_a">
+                <div class="lianjie_a_1"><strong>友情链接：</strong></div>
+                <ul>
+                    <li><a href="http://www.gxut.edu.cn/" target="_blank">广西科技大学</a></li>
+                    <li><a href="http://online.gxut.edu.cn/chengji/" target="_blank">柳苑晨曦</a></li>
+                    <li><a href="http://tieba.baidu.com/f?kw=%B9%E3%CE%F7%B9%A4%D1%A7%D4%BA" target="_blank">广西科技大学贴吧</a></li>
+                    <li><a href="http://www.lvrobot.com/portal.php" target="_blank">爱机器人</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="jieshu_a">
+        <div style="width:1033px; height:17px; float:left;">
+        </div>
+        <div style="width:255px; height:28px; float:left;">
+        </div>
+        <div class="jieshu_a_a">
+            <a href="#"> <strong>关注我们</strong></a>
+        </div>
+        <div class="jieshu_a_b">
+            <strong>|</strong>
+        </div>
+        <div class="jieshu_a_a">
+            <a href="#"> <strong>关于我们</strong></a>
+        </div>
+        <div class="jieshu_a_b">
+            <strong>|</strong>
+        </div>
+        <div class="jieshu_a_a">
+            <a href="#"> <strong>联系我们</strong></a>
+        </div>
+        <div class="jieshu_a_b">
+            <strong>|</strong>
+        </div>
+        <div class="jieshu_a_a">
+            <a href="#" target="_blank"> <strong>加入我们</strong></a>
+        </div>
+        <div class="jieshu_a_b">
+            <strong>|</strong>
+        </div>
+        <div class="jieshu_a_a">
+            <a href="#"> <strong>申请链接</strong></a>
+        </div>
+    </div>
+
+    <div style="width:100%; height:10px; float:left;">
+        <hr color="#eaeaea" />
+    </div>
+
+    <div class="jieshu_c">
+        <div style="width:1033px; height:30px; float:left;">
+        </div>
+        <div class="footer">
+            大学生科创中心版权所有&nbsp&nbsp版本号：v1.1 &nbsp;&nbsp;<a href="#" target="_blank"></a><br />
+            Copyright 2014-2015&nbsp;by&nbsp;<a href="__GROUP__/Ourmaker/index" target="_blank">柳州maker</a>&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;&nbsp;<script src="#" language="JavaScript"></script></div></div>
+
+    <!----返回顶部,集成微博，微信---->
+    <ul id="jump">
+        <li style="display:none;height:50px;"><a id="top" href="#top"></a></li>
+        <li style="height:50px"><a id="sina" rel="nofollow" href="#" target="_blank"></a></li>
+        <li style="height:50px"><a id="weixin" href="javascript:void(0)" onmouseover="showEWM()" onmouseout="hideEWM()">
+        </a></li>
+        <li style="height:50px"><a id="ceping" href="#" target="_blank"></a></li>
+        <li style="height:50px"><a id="reply" href="#" target="_blank"></a></li>
+    </ul>
+    <!-- Baidu Button BEGIN -->
+    <script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=4&amp;pos=right&amp;uid=646732" ></script>
+    <script type="text/javascript" id="bdshell_js"></script>
+    <script type="text/javascript">
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+    </script>
+    <!-- Baidu Button END -->
+</body>
+</html>

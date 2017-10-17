@@ -1,0 +1,54 @@
+<extend name="./Template/base.html" />
+<block name="main">
+	<input type="hidden" id="user_id" value="{$Think.session.user_id}"/>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">LOGO</a>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <!-- <li><a href="#">餐厅</a></li> -->
+	       
+	        <li class="active"><a href="__CONTROLLER__/fen">我要点餐</a></li>
+	      </ul>
+	 
+	      <ul class="nav navbar-nav navbar-right">
+	      	 <li><a href="__CONTROLLER__/self" >个人主页</a></li>
+	      	 <li><a href="__CONTROLLER__/fanhe">我的饭盒</a></li>
+	      	 <li><a href="__CONTROLLER__/history">吃货记录</a></li>
+	      	 <li><a href="__CONTROLLER__/exitLogin" id="btn-regist">退出</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<volist name="food" id="vo">
+		<div class="fanhe-wrap clearfix">
+			<span class="close glyphicon glyphicon-remove" style="font-size: 16px;color: #444;"></span>
+			<div class="fanhe-img">
+				<img src="__PUBLIC__/img/{$vo.image}"/>
+			</div>
+			<div class="fanhe-intro">
+				<h4>菜谱名称：{$vo.name}</h4>
+				<p>简介：{$vo.introduce}</p>
+				<p>价格：￥<span id="single">{$vo.vip_price}</span></p>
+				<p>数量：<span id="num">{$vo.num}</span></p>
+				<p style="color: red;">总价：￥{$vo.total_price}<span class="total"></span></p>
+				<div class="fanhe-btn-group text-success" style="float: right;margin-left: 500px;margin-top: -28px; font-size: 24px;color: #00AEEF; ">
+					已签收
+				</div>
+			</div>
+			
+		</div>
+	</volist>
+	
+<script type="text/javascript">
+	$('.close').click(function(){
+		$(this).parent('.fanhe-wrap').slideUp('fast');
+	});
+</script>
+</block>
+
+

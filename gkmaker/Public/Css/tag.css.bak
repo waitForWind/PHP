@@ -1,0 +1,17 @@
+.fashion_list {
+	BORDER-BOTTOM: #cfcfcf 1px solid; POSITION: absolute; BORDER-LEFT: #cfcfcf 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 10px; WIDTH: 355px; PADDING-RIGHT: 10px; DISPLAY: none; OVERFLOW: hidden; BORDER-TOP: #cfcfcf 1px solid; BORDER-RIGHT: #cfcfcf 1px solid; PADDING-TOP: 10px; TOP: 25px; LEFT: 0px; border-radius: 3px; _left: 0
+}
+.fashion_list .tag {
+	WIDTH: 330px; FLOAT: left
+}
+.fashion_list .close {
+	MARGIN: 5px 5px 0px 0px; WIDTH: 11px; BACKGROUND: url(/img/twitter_light_box_bg.png) no-repeat left bottom; FLOAT: right; HEIGHT: 11px
+}
+.fashion_list .tag A {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; WHITE-SPACE: nowrap; COLOR: #690; FONT-SIZE: 12px; CURSOR: pointer; PADDING-TOP: 2px
+}
+.fashion_list .tag A:hover {
+	TEXT-DECORATION: underline
+}
+
+

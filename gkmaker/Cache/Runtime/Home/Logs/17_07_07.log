@@ -1,0 +1,585 @@
+[ 2017-07-07T11:05:09+08:00 ] 0.0.0.0 /gkmaker/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040001s ]
+SQL: SHOW COLUMNS FROM `pa_clickcount` [ RunTime:0.127502s ]
+SQL: SELECT * FROM `pa_clickcount` WHERE ( id=1 )  [ RunTime:0.037500s ]
+SQL: UPDATE `pa_clickcount` SET `count`=7328 WHERE ( `id` = 1 ) [ RunTime:0.062501s ]
+SQL: SHOW COLUMNS FROM `pa_relannounce` [ RunTime:0.040001s ]
+SQL: SELECT `id`,`status` FROM `pa_relannounce` ORDER BY `id` DESC LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.030000s ]
+SQL: SELECT * FROM `pa_member` WHERE ( isvip=1 ) LIMIT 9   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `pa_chuangyi` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `pa_chuangyi` WHERE ( status=1 ) LIMIT 9   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.027500s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid=1 ) ORDER BY id desc  [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.012501s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1  AND is_screen=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.017500s ]
+SQL: SELECT * FROM `pa_teacher` WHERE ( status=1 ) LIMIT 8   [ RunTime:0.005000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.097502s ]
+INFO: [ view_template ] --END-- [ RunTime:0.097502s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.240003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.240003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002500s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022501s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-07-07T11:05:11+08:00 ] 0.0.0.0 /gkmaker/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_clickcount` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_clickcount` WHERE ( id=1 )  [ RunTime:0.000000s ]
+SQL: UPDATE `pa_clickcount` SET `count`=7329 WHERE ( `id` = 1 ) [ RunTime:0.075001s ]
+SQL: SHOW COLUMNS FROM `pa_relannounce` [ RunTime:0.007500s ]
+SQL: SELECT `id`,`status` FROM `pa_relannounce` ORDER BY `id` DESC LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.002501s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_member` WHERE ( isvip=1 ) LIMIT 9   [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `pa_chuangyi` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_chuangyi` WHERE ( status=1 ) LIMIT 9   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid=1 ) ORDER BY id desc  [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1  AND is_screen=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_teacher` WHERE ( status=1 ) LIMIT 8   [ RunTime:0.002500s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022501s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T11:05:36+08:00 ] 0.0.0.0 /gkmaker/index.php/Game/game
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.037501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.037501s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid = 1  )  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\GameAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\GameAction.class.php 第 44 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.065001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002500s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T11:05:37+08:00 ] 0.0.0.0 /gkmaker/index.php/Game/game
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid = 1  )  [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\GameAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\GameAction.class.php 第 44 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T11:05:37+08:00 ] 0.0.0.0 /gkmaker/index.php/Game/game
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid = 1  )  [ RunTime:0.002501s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\GameAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\GameAction.class.php 第 44 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T11:05:47+08:00 ] 0.0.0.0 /gkmaker/index.php/Guestbook/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `pa_guestbook` [ RunTime:0.107501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_guestbook` LIMIT 1   [ RunTime:0.010001s ]
+SQL: SELECT * FROM `pa_guestbook` ORDER BY `time` DESC LIMIT 0 , 10   [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\GuestbookAction.class.php 第 21 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\GuestbookAction.class.php 第 22 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.122502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122502s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T11:05:48+08:00 ] 0.0.0.0 /gkmaker/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-07-07T11:05:48+08:00 ] 0.0.0.0 /gkmaker/index.php/Guestbook/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_guestbook` [ RunTime:0.007500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_guestbook` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_guestbook` ORDER BY `time` DESC LIMIT 0 , 10   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\GuestbookAction.class.php 第 21 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\GuestbookAction.class.php 第 22 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002500s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T11:08:32+08:00 ] 0.0.0.0 /gkmaker/index.php/Listmember/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\ListmemberAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.007500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_member` LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_member` ORDER BY `uid` DESC LIMIT 0, 12   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_member` WHERE ( uid='' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\ListmemberAction.class.php 第 52 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\ListmemberAction.class.php 第 53 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002501s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002501s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.055000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002500s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2017-07-07T11:08:32+08:00 ] 0.0.0.0 /gkmaker/index.php/Listmember/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\ListmemberAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_member` LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_member` ORDER BY `uid` DESC LIMIT 0, 12   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_member` WHERE ( uid='' )  [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\ListmemberAction.class.php 第 52 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\ListmemberAction.class.php 第 53 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T11:08:33+08:00 ] 0.0.0.0 /gkmaker/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_clickcount` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_clickcount` WHERE ( id=1 )  [ RunTime:0.000000s ]
+SQL: UPDATE `pa_clickcount` SET `count`=7330 WHERE ( `id` = 1 ) [ RunTime:0.275004s ]
+SQL: SHOW COLUMNS FROM `pa_relannounce` [ RunTime:0.010001s ]
+SQL: SELECT `id`,`status` FROM `pa_relannounce` ORDER BY `id` DESC LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_member` WHERE ( isvip=1 ) LIMIT 9   [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `pa_chuangyi` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_chuangyi` WHERE ( status=1 ) LIMIT 9   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid=1 ) ORDER BY id desc  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1  AND is_screen=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_teacher` WHERE ( status=1 ) LIMIT 8   [ RunTime:0.002500s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T11:08:34+08:00 ] 0.0.0.0 /gkmaker/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_clickcount` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_clickcount` WHERE ( id=1 )  [ RunTime:0.000000s ]
+SQL: UPDATE `pa_clickcount` SET `count`=7331 WHERE ( `id` = 1 ) [ RunTime:0.510008s ]
+SQL: SHOW COLUMNS FROM `pa_relannounce` [ RunTime:0.007500s ]
+SQL: SELECT `id`,`status` FROM `pa_relannounce` ORDER BY `id` DESC LIMIT 6   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `pa_member` WHERE ( isvip=1 ) LIMIT 9   [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `pa_chuangyi` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_chuangyi` WHERE ( status=1 ) LIMIT 9   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid=1 ) ORDER BY id desc  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1  AND is_screen=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_teacher` WHERE ( status=1 ) LIMIT 8   [ RunTime:0.002500s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027501s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T11:19:49+08:00 ] 0.0.0.0 /gkmaker/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_clickcount` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_clickcount` WHERE ( id=1 )  [ RunTime:0.002500s ]
+SQL: UPDATE `pa_clickcount` SET `count`=7332 WHERE ( `id` = 1 ) [ RunTime:0.065001s ]
+SQL: SHOW COLUMNS FROM `pa_relannounce` [ RunTime:0.007500s ]
+SQL: SELECT `id`,`status` FROM `pa_relannounce` ORDER BY `id` DESC LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_member` WHERE ( isvip=1 ) LIMIT 9   [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `pa_chuangyi` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `pa_chuangyi` WHERE ( status=1 ) LIMIT 9   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid=1 ) ORDER BY id desc  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1  AND is_screen=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_teacher` WHERE ( status=1 ) LIMIT 8   [ RunTime:0.005000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.067502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067502s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002500s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-07-07T11:19:49+08:00 ] 0.0.0.0 /gkmaker/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_clickcount` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `pa_clickcount` WHERE ( id=1 )  [ RunTime:0.000000s ]
+SQL: UPDATE `pa_clickcount` SET `count`=7333 WHERE ( `id` = 1 ) [ RunTime:0.052500s ]
+SQL: SHOW COLUMNS FROM `pa_relannounce` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`status` FROM `pa_relannounce` ORDER BY `id` DESC LIMIT 6   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.002501s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_member` WHERE ( isvip=1 ) LIMIT 9   [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `pa_chuangyi` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_chuangyi` WHERE ( status=1 ) LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid=1 ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1  AND is_screen=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_teacher` WHERE ( status=1 ) LIMIT 8   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002500s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:44:19+08:00 ] 0.0.0.0 /gkmaker/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:46:19+08:00 ] 0.0.0.0 /gkmaker/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:47:11+08:00 ] 0.0.0.0 /gkmaker/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_clickcount` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_clickcount` WHERE ( id=1 )  [ RunTime:0.000000s ]
+SQL: UPDATE `pa_clickcount` SET `count`=7334 WHERE ( `id` = 1 ) [ RunTime:0.170003s ]
+SQL: SHOW COLUMNS FROM `pa_relannounce` [ RunTime:0.012500s ]
+SQL: SELECT `id`,`status` FROM `pa_relannounce` ORDER BY `id` DESC LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.002501s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `pa_member` WHERE ( isvip=1 ) LIMIT 9   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `pa_chuangyi` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `pa_chuangyi` WHERE ( status=1 ) LIMIT 9   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid=1 ) ORDER BY id desc  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1  AND is_screen=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `pa_teacher` WHERE ( status=1 ) LIMIT 8   [ RunTime:0.002500s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002501s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007501s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-07-07T14:47:11+08:00 ] 0.0.0.0 /gkmaker/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_clickcount` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_clickcount` WHERE ( id=1 )  [ RunTime:0.002500s ]
+SQL: UPDATE `pa_clickcount` SET `count`=7335 WHERE ( `id` = 1 ) [ RunTime:0.102502s ]
+SQL: SHOW COLUMNS FROM `pa_relannounce` [ RunTime:0.010000s ]
+SQL: SELECT `id`,`status` FROM `pa_relannounce` ORDER BY `id` DESC LIMIT 6   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT `id`,`title`,`status`,`updata_time` FROM `pa_relannounce` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pa_member` WHERE ( isvip=1 ) LIMIT 9   [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: nickname D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\gkmaker\Home\Lib\Action\IndexAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `pa_chuangyi` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `pa_chuangyi` WHERE ( status=1 ) LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_game` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `pa_game` WHERE ( cid=1 ) ORDER BY id desc  [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_news` WHERE ( status=1  AND is_screen=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `pa_teacher` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_teacher` WHERE ( status=1 ) LIMIT 8   [ RunTime:0.002500s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+

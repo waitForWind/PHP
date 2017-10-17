@@ -1,0 +1,50 @@
+<div class="side">
+    <div class="head_id">
+        <dl>
+            <dt>
+                <a href="__GROUP__/Myzone/mymessage?id={$li.uid}">
+                    <if condition="$li.avatar neq NULL">
+                        <img alt="user name" src="__PUBLIC__/Uploads/s_{$li.avatar}">
+                        <else/>
+                        <img alt="user name" src="__PUBLIC__/images/qz_middle.jpg"></if>
+                </a>
+            </dt>
+        </dl>
+        <dd>
+            <a class="user_name" href="__GROUP__/Myzone/mymessage/id/{$li.uid}">{$li.nickname}</a>
+        </dd>
+        <dd>
+
+            <a class="edit_info" href="__GROUP__/Myzone/edit?id={$li.uid}">修改资料||更改头像</a>
+        </dd>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a class="album" href="__GROUP__/Myzone/state/id/{$li.uid}">状态</a>
+            </li>
+            <li>
+                <a class="connection" href="__GROUP__/Submit/submit/id/{$li.uid}">申报立项</a>
+            </li>
+            <li>
+                <a class="code" href="__GROUP__/Myzone/letter/id/{$li.uid}">收信箱</a>
+            </li>
+            <li>
+                <a class="connection" href="__GROUP__/Myzone/outletter/id/{$li.uid}">发信箱</a>
+            </li>
+            <li>
+                <a class="leaveword" href="__GROUP__/Myzone/messageboard/id/{$li.uid}">留言</a>
+            </li>
+            <li>
+                <a class="letter" href="__GROUP__/Myzone/myidea/id/{$li.uid}">创意</a>
+            </li>
+            <li>
+                <a class="notice" href="__GROUP__/Myzone/secureqa/id/{$li.uid}">安全设置</a>
+            </li>
+            <li>
+                <a class="connection" href="#">账号绑定</a>
+            </li>
+
+        </ul>
+    </div>
+</div>

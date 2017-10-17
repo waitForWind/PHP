@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>留言--大学生科创中心</title>
+        <meta name="keywords" content="大学生科创中心,科技交流,科技交友,寻找交友,创意孵化,在线报名,热门比赛">
+        <meta name="description" content="大学生科创中心是一个科技学术交友的平台，并兼有科技交流、名师检索、资料下载、赛事预览、在线报名等功能">
+        <script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/main.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/daycoming.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/cookieclass.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/iealert.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/fixednav.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/baidu_search.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/main.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/my.css"> 
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/css">
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/iealert.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/guestbook.css" />
+       
+        <script src="__PUBLIC__/Css/logger.js"></script>
+        <link href="__PUBLIC__/Css/bdsstyle.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <include file="Common:head" />
+        <include file="Common:mynav" />
+
+        <!----------------中间的部分-------------->
+        <div class="liuyan_BG">
+            <div class="liuyan_A">
+                <div class="liuyan_A_b">
+                    <div class="liuyanban">
+                        <div class="liuyanban_top">
+                        </div>
+                        <div class="liuyanban_liuyan">
+                            <div class="liuyanban_a">
+                                <div class="liuyanban_a_top"></div>
+                                <div class="liuyanban_a_left"></div>
+                                <div align="left"><strong>留言板</strong></div>
+                               
+                            </div>
+                            <div class="liuyan_H"> </div>
+                            <div class="liuyan_All">
+                                <div class="liuyan_All_top"> </div>
+                    
+                                <volist name="info" id="li">
+                                    <div class="liuyan_All_main">
+                                        <div class="liuyan_All_tu">
+                                        <if condition="$li.photo neq NULL">
+                                            <a href="__GROUP__/Myzone/mymessage/id/{$li.uid}"><img height="50px" align="left" src="__PUBLIC__/Uploads/{$li.photo}" />
+                                            </a>
+                                        <else/><img height="50px" align="left" src="__PUBLIC__/images/qz_small.jpg" />
+                                            </if>
+                                        </div>
+                                        <div class="liuyan_All_b">
+                                            <div class="liuyan_All_b_a">
+                                                <div align="left" class="liuyan_All_ni"> <span> <a href="__GROUP__/Myzone/mymessage/id/{$li.uid}">{$li.name}</a></span></div>
+                                                <!--<div class="liuyan_All_zhu"> <span>主题：</span> <span style="color:#999;">{$li.title}</span></div>-->
+                                                <div align="left"> <span>主题：</span> <span style="color:#999;">{$li.title}</span><span class="liuyan_All_time">{$li.time|date="Y-m-d H:i:s",###}</span></div>
+                                                <!--<div  class="liuyan_All_time">{$li.time|date="Y-m-d H:i:s",###}</div>-->
+                                            </div>
+                                            <div class="liuyan_All_wen" align="left">{$li.content}</div>
+                                            <if condition="$li.respond neq null">
+                                            <div class="liuyan_All_huifu">
+                                                <div class="liuyan_All_reply" align="left">回复：<span style="color:#999;">{$li.respond}</span><span class="liuyan_All_time"></span>
+                                                </div>
+                                            </div></if>
+                                        </div>
+                                        <div class="liuyan_All_kongbai"> </div>
+                                        <div class="liuyan_All_bottom"> </div>
+
+                                    </div>
+                                </volist>
+
+                            </div>
+
+                            <!-------------------------------翻页-------------------------->
+
+                            <div class="fenye">{$page}</div>
+                            <div style="width:965px; height:10px; float:left;"></div>
+
+                            <!-------------------------------------------------------------->
+                        </div>
+
+                        <div class="liuyan_WY">
+                            <div class="liuyanban_a" align="left">
+                                <div class="liuyanban_a_top">
+                                </div>
+                                <div class="liuyanban_a_left">
+                                </div>
+                                <strong><a name='fadeback'>我要留言</a></strong>
+                            </div>
+                            <div class="liuyan_H">
+                            </div>
+
+                            <form action="__GROUP__/Guestbook/add" method="post" id="guestbook">
+                               
+                                <!---------------------------留言表单---------------------------->
+                                <div class="liuyan_WY_a">
+                                    <div class="liuyan_WY_left">
+                                    </div>
+
+                                    <div class="liuyan_WY_right">
+                                        <div class="liuyan_WY_r_top">
+                                        </div>
+                                        <div class="liuyan_WY_r">
+
+                                            <div class="liuyan_WY_r_a">您的姓名：
+                                            </div>
+                                            <div class="liuyan_WY_r_b" align="left">
+                                                <input type="text" name="guestbook[name]" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="liuyan_WY_r">
+
+                                            <div class="liuyan_WY_r_a">留言主题：
+                                            </div>
+                                            <div class="liuyan_WY_r_b" align="left">
+                                                <input type="text" name="guestbook[title]" />
+                                            </div>
+                                        </div>
+                                        <div class="liuyan_WY_r">
+
+                                            <div class="liuyan_WY_r_a">留言内容：
+                                            </div>
+                                            <div class="liuyan_WY_r_b wrap">
+                                                <textarea class="limitedContent" name="guestbook[content]" cols="100" rows="7"></textarea>
+                                                <br />
+                                                <div class="limitword"><span id="msg"></span></div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="liuyan_WY_r">
+
+                                            <div class="liuyan_WY_r_a">验证码：
+                                            </div>
+                                            <div class="liuyan_WY_r_b" align="left">
+                                                <input type="text" name="verifycode" />
+                                                <img src="__GROUP__/Base/verify_code" onclick="this.src+='?rand='+Math.random()" title="点击更换" style="cursor:pointer; margin-bottom:-8px;">
+                                            </div>
+                                        </div>
+
+                                        <div class="liuyan_WY_r">
+
+                                            <div class="liuyan_WY_r_a">
+                                            </div>
+                                            <div class="liuyan_WY_r_b" align="left">
+                                                <!--<div class="liuyan_WY_r_b"><a href="javascript:void(0)" class="reply" id="replys">留言</a></div>-->
+                                                <input class="reply" type="submit" value="提交" align="middle"/>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <div style="width:1034px; height:20px; float:left">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+<include file="Common:footer"/>
+        <!----返回顶部,集成微博，微信---->
+        <ul id="jump">
+            <li style="display:none;height:50px;">
+                <a id="top" href="#top"></a>
+            </li>
+            <li style="height:50px">
+                <a id="sina" rel="nofollow" href="#" target="_blank"></a>
+            </li>
+            <li style="height:50px">
+                <a id="weixin" href="javascript:void(0)" onmouseover="showEWM()" onmouseout="hideEWM()">
+                </a>
+            </li>
+            <li style="height:50px">
+                <a id="ceping" href="#" target="_blank"></a>
+            </li>
+            <li style="height:50px">
+                <a id="reply" href="guestbook.php#fadeback" target="_blank"></a>
+            </li>
+        </ul>
+        <!-- Baidu Button BEGIN -->
+        <script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=4&amp;pos=right&amp;uid=646732"></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        <script type="text/javascript">
+            document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date() / 3600000);
+        </script>
+        <!-- Baidu Button END -->
+
+    </body>
+
+</html>

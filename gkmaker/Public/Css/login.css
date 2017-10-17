@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login{
+	width:1034px;
+	height:440px;
+	margin:0 auto;
+}
+.login_top{
+	width:1034px;
+	height:10px;
+	float:left;
+}
+.login_M{
+	width:1034px;
+	height:401px;
+	float:left;
+}
+.login_L{
+	width:674px;
+	height:401px;
+	float:left;
+	background:url(../images/loginDbg.jpg) no-repeat;
+}
+.login_R{
+	width:360px;
+	height:401px;
+	float:left;
+}
+.login_R_t{
+	width:360px;
+	height:5px;
+	float:left;
+	background:url(../images/loginTop.jpg) no-repeat;
+}
+.login_R_l{
+	width:5px;
+	height:376px;
+	float:left;
+	background:url(../images/loginLeft.jpg) no-repeat;
+}
+.login_R_r{
+	width:5px;
+	height:376px;
+	float:left;
+	background:url(../images/loginRight.jpg) no-repeat;
+}
+.login_R_b{
+	width:360px;
+	height:4px;
+	float:left;
+	background:url(../images/loginBottom.jpg) no-repeat;
+}
+.login_R_m{
+	width:350px;
+	height:301px;
+	float:left;
+	font-family:"微软雅黑";
+}
+.login_R_m_a{
+	width:350px;
+	height:40px;
+	float:left;
+	background:#eaeffd;
+	color:#0389c6;
+	font-size:18px;
+}
+.login_R_m_a_top{
+	width:350px;
+	height:10px;
+	float:left;
+}
+.login_R_m_a_left{
+	width:18px;
+	height:30px;
+	float:left;
+}
+.login_R_m_b{
+	width:350px;
+	height:45px;
+	float:left;
+	font-size:15px;
+}
+.login_R_m_b input{
+	height:25px;
+	border: 1px solid #CCCCCC;
+	width: 168px;
+	padding: 4px 0px 4px 4px;
+}
+.login_R_m_c{
+	width:350px;
+	height:50px;
+	float:left;
+	font-size:12px;
+}
+.login_R_m_c_left{
+	width:80px;
+	height:50px;
+	float:left;
+}
+.login_R_m_c_a{
+	width:80px;
+	height:50px;
+	float:left;
+}
+.login_R_m_d{
+	width:350px;
+	height:70px;
+	float:left;
+	font-size:12px;
+}
+.login_R_m_d_left{
+	width:80px;
+	height:100px;
+	float:left;
+}
+.login_R_m_e{
+	width:350px;
+	float:left;
+	font-size:12px;
+	color:#42a7d4;
+}
+.login_R_m_e_left{
+	width:50px;
+	height:25px;
+	float:left;
+}
+/*****王洋改写*****/
+
+
+.link {
+    color: #426CD5;
+}
+.join_text{
+	float:left;
+}
+
+/**找回密码**/
+#getPwd {
+    background: url("../images/vip_modify_icon.png") no-repeat scroll 0 0 transparent;
+    height: 290px;
+    margin: 30px auto 0;
+    position: relative;
+    width: 393px;
+}
+
+#caption {
+    color: #2D2B5D;
+    font-size: 14px;
+    font-weight: bold;
+    height: 24px;
+    left: 70px;
+    line-height: 24px;
+    position: absolute;
+    top: 20px;
+    width: 80px;
+}
+#tips {
+    color: #FF5400;
+    height: 24px;
+    left: 60px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 280px;
+}
+.success {
+    background: url("../images/vip_modify_icon.png") no-repeat scroll -204px -296px transparent;
+    height: 70px;
+    left: 196px;
+    margin-left: -35px;
+    position: absolute;
+    top: 58px;
+    width: 69px;
+}
+.mail_color {
+    color: #68779D;
+}
+.check_tips {
+    height: 132px;
+    margin: 0 auto;
+    padding-top: 135px;
+    width: 295px;
+}
+.reset_tips {
+    height: 132px;
+    margin: 0 auto;
+    padding-top: 62px;
+    width: 295px;
+}
+.reset_tips li, .check_tips li {
+    line-height: 26px;
+    list-style: none outside none;
+}
+.user_mail {
+    padding: 30px 0 10px;
+}
+.submit_btn {
+    text-align: center;
+}
+.submit_btn input {
+    background: url("../images/vip_modify_icon.png") no-repeat scroll -112px -296px transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 34px;
+    width: 86px;
+}
+.user_text, .reset_text {
+    border: 1px solid #A9B7CF;
+    height: 22px;
+    line-height: 22px;
+    padding: 1px;
+    width: 220px;
+}
+.lightText {
+    color: #FF5400;
+}
+#getPwd input[type='text']{
+	border: 1px solid #CCCCCC;
+	height: 16px;
+    padding: 2px 5px;
+}
+
+/*登录页面*/
+
+.login_submit{margin:0px 0px 33px 0px;border:none;background:url(../images/login_bg.png) no-repeat -12px -12px; height:45px;width:105px; padding:0px;cursor: pointer;}
+.login_submit:hover{background: url(../images/login_bg.png) no-repeat -120px -12px; height:45px;width:105px; padding:0px;}
+
+.apply_reg:hover{ display:block;background: url(../images/apply_account.png) no-repeat -115px 0px; height:35px;width:99px; padding:0px;margin-left:5px;}
+.apply_reg{ display:block;background: url(../images/apply_account.png) no-repeat 0px 0px; height:35px;width:99px; padding:0px;float: left; margin-left:5px;}
+

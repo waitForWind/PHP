@@ -1,0 +1,129 @@
+/****
+ * design by  王洋  2012.9.24
+ * 功能：个人中心的私信回复及删除功能的ajax响应
+ * 不需要function加载  因为都是函数
+    注意：当js要传参数是可以写成函数！！！通过形参传输！！！！！
+ * 
+********/	
+
+/*
+	//留言方法
+	function add_content(){
+
+		var content=$("#content").val();
+		
+		//alert(content);
+
+		$.post("/index.php/my/message/add_message", {"content":content},
+
+				function (data){
+								//alert(data.succ);
+
+								if(data.succ ==1){
+									window.location.reload();
+									
+								}else{
+										alert(data.msg);
+									}
+							
+					},"json");
+		
+		
+	}*/
+
+//删除留言方法   ajax删除。。同时删除其回复。。。
+function delete_one(id){
+		if(window.confirm("该操作将删除私信及其回复\n确定删除吗？")){
+		//传个id值过去就删除了,用get或者post都行
+				$.get("WEB_ROOT/Home/Lib/Myzone/getdel",{"id": id},
+				
+		}
+
+	}
+
+//回复留言方法
+
+function reply_content(id){
+
+	$("#rep_"+id).css("display","block");
+	//$("#rep_").css("display","none");  同级的隐藏啊
+	
+}
+
+//回复留言的取消方法
+
+function reply_cancel(id){
+
+	$("#rep_"+id).css("display","none");
+	
+}
+
+
+//回复留言的回复方法
+///id是私信的id
+//用的jquery 的ajax方法
+function reply_reply(id){
+
+
+	var content=$("#reply_content_reply_"+id).val();
+	var receiver=$("#receiver").val();
+	//输出测试下。。
+	//alert(content+"\n"+author+"\n"+receiver);
+	
+	$.post("./ajax/reply_guestbook.php", {"content":content,"id":id,"receiver":receiver},
+
+			function (data){
+				//响应。。
+				//alert(data);
+		//加载好还是不加载好呢。。
+				window.location.reload();
+				//$("#reply_"+id).html(data);
+				
+				//只用响应成功才显示，不成功什么都不显示。。。
+							//alert(data.succ);
+				//alert("aaaaaaaaaaa");
+/*							if(data.succ ==1){
+								//成功
+								alert("aaaaaaa");
+								window.location.reload();//重新载入。。相当于刷新，ajax还一个毛用啊。。。。。
+								
+							}else{
+									alert(data.msg);
+								}
+*/						
+				});
+
+	$("#rep_"+id).css("display","none");//隐藏输入框。。。。
+	var content=$("#reply_content_reply_"+id).val("");//回复完成。。content值置空
+}
+
+//删除留言的回复内容,只删除当前的回复，不删除原留言内容
+
+function delete_reply_content(id){
+
+	if(window.confirm("确定删除吗？")){
+
+	$.get("./ajax/delete_reply_content.php", {"id":id},
+
+			function (data){
+			window.location.reload();//重新加载。。相当于刷新
+					//alert(data);
+							//alert(data.succ);
+/*
+ * 
+ *
+							if(data.succ ==1){
+								window.location.reload();
+								
+							}else{
+									alert(data.msg);
+								}
+		 
+ */				
+				});
+	}
+}
+
+
+
+

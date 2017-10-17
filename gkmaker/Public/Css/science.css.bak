@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size:12px;font-family:"黑体", Arial, sans-serif; 
+	color:#666; 
+	background:#e7e7e7;
+	margin:0 auto;
+	overflow-x:hidden;
+}
+a:link,a:visited,a:hover,a:active{
+	color:#666;
+	text-decoration:none;
+}
+.f_l{
+	float:left;
+}
+.f_r{
+	float:right;
+}
+.c_l{
+	clear:both;
+}
+/*         head      */
+.headLeft {
+	background: url(../science/headbg_left.gif) no-repeat;
+	height: 378px;
+	width: 331px;
+	position: absolute;
+	left:-330px;
+	top: 0;
+}
+.logo{
+	position:absolute;
+	left:20px;
+	top:20px;
+	width:251px;
+	height:98px;
+}
+.headCenter{
+	background:#F00 url(../science/headbg_cen.jpg) no-repeat;	
+	width:960px;
+	height:408px;
+	margin:0 auto;
+	position:relative;
+}
+.headRight{
+	background:url(../science/headbg_right.gif) no-repeat;
+	height: 378px;
+	width: 331px;
+	position: absolute;
+	right:-331px;
+	top: 0;
+}
+
+.headInfo{
+	clear:both;
+	width:585px;
+	height:140px;
+	position:absolute;
+	right:0px;
+	top:14px;
+	
+}
+
+dl{
+	margin:0;
+	color:#FFF;
+	line-height:21px;
+}
+dt,dd{
+	display:block;
+	margin:0;
+	float:left;
+}
+dt{
+	width:65px;
+}
+dd{
+	width:520px;
+	
+}
+
+.nav{
+	width:580px;
+	height:40px;
+	position:absolute;
+	right:5px;
+	bottom:0;
+	background:url(../science/menubg01.gif) no-repeat;
+}
+ul{
+	padding-left:21px;
+	margin:0;
+	list-style:none;
+}
+.nav ul li{
+	background:url(../science/menuline.gif) no-repeat right;
+	font-size:14px;
+	line-height:41px;
+	float:left;
+	color:gray;
+	height:41px;
+	margin:0 10px 0 0;
+}
+.nav ul li a{
+	margin-right:11px;
+}
+.nav ul li a:hover{
+	color:#000;
+}
+/*中间的大图*/
+.bananer{
+	position:absolute;
+	left:0;
+	top:154px;
+	background:url(/science/bananer.jpg) no-repeat;
+	width:960px;
+	height:382px;
+}
+.bananer a{
+	display: block;
+	width: 159px;
+	height: 43px;
+	text-align: center;
+	line-height: 43px;
+	position: absolute;
+	left: 126px;
+	bottom: 68px;
+	color: #4D4D4D;
+	text-decoration: none;
+	font-size: 18px;
+}
+/*内容（一级页面）*/
+.main{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	margin-top:140px;
+}
+.content{
+	float:left;
+	width:318px;
+	height:auto;
+	padding-right:2px;
+}
+.head{
+	padding-left:31px;
+	padding-top:39px;
+	color:#FFF;
+	font-size:18px;
+	background:url(../science/nav.gif) no-repeat;
+	width:287px;
+	height:40px;
+}
+.mainBody{
+	font-size:14px;
+	line-height:16px;
+	padding:20px 27px;
+	position:relative;
+	background:url(../science/navcen.gif) repeat-y;
+	width:264px;
+	height:270px;
+}
+.mainBody ul{
+	padding:10px;
+	list-style-type:disc;
+}
+.mainBody ul li{
+	position:relative;
+	margin-bottom:10px;
+
+}
+.mainBody ul li span{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.mainBody .news1{
+	padding-bottom:10px;
+	border-bottom:#EEE 2px solid;
+}
+.mainBody .news2{
+	padding-top:27px;
+	padding-bottom:10px;
+	border-bottom:#EEE 2px solid;
+}
+.mainBody img{
+	border:none;
+	position:absolute;
+	right:30px;
+	bottom:20px;
+}
+.foot{
+	background:url(../science/navfoot.gif) no-repeat;
+	width:318px;
+	height:36px;
+}
+.content .mainbody img{
+	position:absolute;
+}
+/*内容（二级页面）*/
+.main2{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	margin-top:140px;
+}
+.maintop{
+	background:url(../science/navtb_01_02.gif) repeat-x;
+	width:960px;
+	height:24px;
+	overflow:hidden;
+}
+.mainbottom{
+	background:url(../science/navfoot_02.gif) repeat-x;
+	width:960px;
+	height:24px;
+	overflow:hidden;
+}
+.head2{
+	position:absolute;
+	top:10px;
+	left:0px;
+	padding-left:30px;
+	padding-top:16px;
+	color:#FFF;
+	font-size:18px;
+	background:url(../science/navhead.gif) no-repeat;
+	width:930px;
+	height:40px;
+}
+.mainBody2{
+	font-size:14px;
+	line-height:16px;
+	padding:20px 0 40px 0;
+	position:relative;
+	background:url(../science/navcen2.gif) repeat-y;
+	width:960px;
+	height:auto;
+}
+.mainBody2 ul{
+	width:920px;
+	padding:60px 20px 0px 20px;
+	list-style-type:disc;
+}
+.mainBody2 ul li{
+	display:inline;
+	float:left;
+	width:400px;
+	height:auto;
+	position:relative;
+	margin-left:38px;
+	margin-bottom:10px;
+}
+.mainBody2 ul li span{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.mainBody2 .news1{
+	padding-bottom:10px;
+	border-bottom:#EEE 2px solid;
+}
+.mainBody2 .news2{
+	padding-top:27px;
+	padding-bottom:10px;
+	border-bottom:#EEE 2px solid;
+}
+.mainBody2 img{
+	border:none;
+	position:absolute;
+	right:30px;
+	bottom:0px;
+}
+.foot2{
+	background:url(../science/navfoot_02.gif) repeat-x;
+	width:960px;
+	height:36px;
+}
+.footer{
+	clear:both;
+	font-size:14px;
+	line-height:30px;
+	text-align:center;
+	padding:20px 0;
+}
+.footer a{
+	color:#333;
+}
+.footer a:hover{
+	text-decoration:underline;
+}
+
+
+/*添加热点*/
+.hot {
+    background: url("../science/hot.gif") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    position: absolute;
+    top:-10%;
+    width: 21px;
+}

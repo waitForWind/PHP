@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0043)http://www.kjjlpt.com/my.php?show=allnotice -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>个人空间--大学生科创中心</title>
+    <meta name="keywords" content="大学生科技交流平台,科技交流,科技交友,寻找交友,创意孵化,在线报名,热门比赛">
+    <meta name="description" content="大学生科技交流平台是一个科技学术交友的平台，并兼有科技交流、名师检索、资料下载、赛事预览、在线报名等功能">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/main.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/daycoming.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/cookieclass.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/iealert.js" ></script>
+    <script type="text/javascript" src="__PUBLIC__/js/fixednav.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/baidu_search.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/main.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/my.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/iealert.css" />
+
+
+
+    <script src="__PUBLIC__/Css/logger.js"></script><link href="__PUBLIC__/Css/bdsstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<include file="Common:head"/>
+<include file="Common:mynav"/>
+
+<script src="__PUBLIC__/js/myguest.js" type="text/javascript"></script>
+
+<div style="width:850px; height:20px;"></div>
+<div class="wrap">
+    <volist name="info" id="li">
+        <include file="Common:myzoneSide"/>
+    </volist>
+    <div class="right">
+        <div class="per_notebook">
+            <h2 class="tit_3">留言板</h2>
+            <form id="form_id">
+                <volist name="liuyan" id="in">
+                <div class="note_list">
+                    <dl>
+                        <dt><a href="__GROUP__/Myzone/mymessage?id={$uid}" id="author">
+                            <img src="__PUBLIC__/Uploads/{$in.postphoto}" alt="{$in.postname}" />
+                        </a>
+                        </dt>
+                        <dd>
+                            <ul>
+                                <li>
+				<span class="fr">
+
+                    <a href="javascript:void(0);" onclick="reply_content(1073)" >回复</a>　<a  href="__GROUP__/Myzone/mbdel?id={$in.id}" >删除</a>
+				</span>
+                                    <a href="showuser.php?uid=6328" id="author">{$in.postname}</a>
+                                    <span class="time">{$in.time|date="Y-m-d H:i:s",###}&nbsp;&nbsp;</span>
+                                </li>
+                                <li>{$in.content}</li>
+                            </ul>
+                            <!--<ul class="answer" style="display:none" id="rep_1073">-->
+                                <!--<li>-->
+                                    <!--<textarea name="reply_content_reply" id="reply_content_reply_1073"></textarea>-->
+                                    <!--<input type="hidden" id="receiver" value="6328" />-->
+                                <!--</li>-->
+                                <!--<li class="tr">-->
+                                    <!--<a href="javascript:void(0);" onclick="reply_reply(1073)" class="btn_1">-->
+                                        <!--<span>回复</span></a>-->
+                                    <!--<a href="javascript:void(0);" onclick="reply_cancel(1073);" class="cancel">取消</a>-->
+                                <!--</li>-->
+                            <!--</ul>-->
+                        </dd>
+                    </dl>
+                </div>
+                </volist>
+            </form>
+        </div>
+    </div>
+    <div class="page_nav"> 共{$page}></div>
+</div>
+<div style="width:100%; height:10px; float:left;"> <hr color="#eaeaea">   </div>
+<div class="jieshu_a">
+    <div style="width:1033px; height:17px; float:left;">
+    </div>
+    <div style="width:255px; height:28px; float:left;">
+    </div>
+    <div class="jieshu_a_a">
+            <a href="#"> <strong>关注我们</strong></a>
+        </div>
+        <div class="jieshu_a_b">
+            <strong>|</strong>
+        </div>
+        <div class="jieshu_a_a">
+            <a href="#"> <strong>关于我们</strong></a>
+        </div>
+        <div class="jieshu_a_b">
+            <strong>|</strong>
+        </div>
+        <div class="jieshu_a_a">
+            <a href="#"> <strong>联系我们</strong></a>
+        </div>
+        <div class="jieshu_a_b">
+            <strong>|</strong>
+        </div>
+        <div class="jieshu_a_a">
+            <a href="#" target="_blank"> <strong>加入我们</strong></a>
+        </div>
+        <div class="jieshu_a_b">
+            <strong>|</strong>
+        </div>
+        <div class="jieshu_a_a">
+            <a href="#"> <strong>申请链接</strong></a>
+        </div>
+</div>
+
+<div style="width:100%; height:10px; float:left;">
+    <hr color="#eaeaea">
+</div>
+
+<div class="jieshu_c">
+    <div style="width:1033px; height:30px; float:left;">
+    </div>
+    <div class="footer">
+        大学生科创中心版权所有&nbsp&nbsp版本号：v1.1 &nbsp;&nbsp;<a href="#" target="_blank"></a><br />
+        Copyright 2014-2015&nbsp;by&nbsp;<a href="__GROUP__/Ourmaker/index" target="_blank">柳州maker</a>&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;&nbsp;<script src="#" language="JavaScript"></script></div></div>
+
+<!----返回顶部,集成微博，微信---->
+<ul id="jump">
+    <li style="display:none;height:50px;"><a id="top" href="#top"></a></li>
+    <li style="height:50px"><a id="sina" rel="nofollow" href="#" target="_blank"></a></li>
+    <li style="height:50px"><a id="weixin" href="javascript:void(0)" onmouseover="showEWM()" onmouseout="hideEWM()">
+    </a></li>
+    <li style="height:50px"><a id="ceping" href="#" target="_blank"></a></li>
+    <li style="height:50px"><a id="reply" href="guestbook.php#fadeback" target="_blank"></a></li>
+</ul>
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=4&amp;pos=right&amp;uid=646732" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END -->
+
+</body></html>

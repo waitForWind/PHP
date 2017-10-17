@@ -1,0 +1,54 @@
+[ 2016-02-10T20:42:46+08:00 ] ERR: (ThinkException) ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+[ 2016-02-10T20:42:46+08:00 ] 0.0.0.0 /gkmaker/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006885s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+NOTIC: [2] mysql_connect():  D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+NOTIC: [8] Undefined index: class D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: type D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: file D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 62 è¡Œ.
+NOTIC: [8] Undefined index: line D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 62 è¡Œ.
+NOTIC: [4096] Object of class IndexAction could not be converted to string D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 64 è¡Œ.
+NOTIC: [8] Undefined index: class D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: type D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: class D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: type D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+
+[ 2016-02-10T21:36:34+08:00 ] ERR: (ThinkException) ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+[ 2016-02-10T21:36:34+08:00 ] 0.0.0.0 /gkmaker/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002561s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+NOTIC: [2] mysql_connect():  D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+NOTIC: [8] Undefined index: class D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: type D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: file D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 62 è¡Œ.
+NOTIC: [8] Undefined index: line D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 62 è¡Œ.
+NOTIC: [4096] Object of class IndexAction could not be converted to string D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 64 è¡Œ.
+NOTIC: [8] Undefined index: class D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: type D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: class D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: type D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+
+[ 2016-02-10T21:37:07+08:00 ] ERR: (ThinkException) ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+[ 2016-02-10T21:37:07+08:00 ] 192.168.1.100 /gkmaker/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003186s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+NOTIC: [2] mysql_connect():  D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+NOTIC: [8] Undefined index: class D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: type D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: file D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 62 è¡Œ.
+NOTIC: [8] Undefined index: line D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 62 è¡Œ.
+NOTIC: [4096] Object of class IndexAction could not be converted to string D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 64 è¡Œ.
+NOTIC: [8] Undefined index: class D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: type D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: class D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+NOTIC: [8] Undefined index: type D:\xampps\htdocs\gkmaker\ThinkPHP\Lib\Core\ThinkException.class.php ç¬¬ 63 è¡Œ.
+

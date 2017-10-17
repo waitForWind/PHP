@@ -1,0 +1,148 @@
+﻿<extend name="./Template/base.html" />
+<block name="main">
+<a href="__CONTROLLER__/menu" style="font-size: 20px;" class="return">
+	<span class="glyphicon glyphicon-chevron-left" ></span>返回
+</a>
+<div class="container" style="margin-top: 10px;margin-left: 0;padding-left: 0;">
+	<form class="form-horizontal" role="form"  enctype="multipart/form-data" id="menuform" method="post" action="__CONTROLLER__/upload" >
+	  <div class="form-group">
+	    <label for="foodname" class="col-xs-2 control-label">名称</label>
+	    <div class="col-xs-4">
+	      <input type="text" class="form-control" name="foodname" id="foodname" value="{$data.name}">
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <label for="price" class="col-xs-2 control-label">价格</label>
+	    <div class="col-xs-4">
+	      <input type="text" class="form-control" name="price" id="price" value="{$data.price}">
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <label for="vip_price" class="col-xs-2 control-label">会员价格</label>
+	    <div class="col-xs-4">
+	      <input type="text" class="form-control" name="vip_price" id="vip_price" value="{$data.vip_price}">
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <label for="foodclass" class="col-xs-2 control-label">所属类别</label>
+	    <div class="col-xs-2">
+	    	<select class="form-control" id="foodclass" name="foodclass">
+		         <option <if condition="$data.class eq '粉类'">selected = "selected"</if>>粉类</option>
+		         <option <if condition="$data.class eq '饭类'">selected = "selected"</if>>饭类</option>
+		         <option <if condition="$data.class eq '面类'">selected = "selected"</if>>面类</option>
+		         <option <if condition="$data.class eq '粥类'">selected = "selected"</if>>粥类</option>
+		         <option <if condition="$data.class eq '小炒'">selected = "selected"</if>>小炒</option>
+	    	</select>
+	    </div>
+	  </div>
+    <div class="form-group">
+      <label for="recommend" class="col-xs-2 control-label">是否推荐</label>
+      <div class="col-xs-3" style="padding-top:6px;">
+      		<input type="radio" name="recommend" id="recommend" value="1" <if condition="$data.status eq 1">checked</if>>是
+      		<input type="radio" name="recommend" id="recommend" value="0" <if condition="$data.status eq 0">checked</if>>否      		
+      </div>
+    </div>
+ 
+    <div class="form-group">
+	    <label for="commen" class="col-xs-2 control-label">菜品介绍</label>
+	    <div class="col-xs-8">
+	    	<textarea cols="38" rows="6" name="commen" id="commen">{$data.introduce}</textarea>
+	    </div>
+	</div>
+	<div class="form-group">
+	    <div class="col-xs-offset-2 col-xs-4">
+	      <input type="submit" class="btn btn-primary" value="修改">
+	    </div>
+	  </div>
+	  <input type="hidden" id="controller" value="__CONTROLLER__">
+	  <input type="hidden" name="menu_id" value="{$data.menu_id}">
+	</form>
+</div>
+
+<script type="text/javascript">
+$("#menuform").submit(function(e){
+	e.preventDefault();
+	var controller = $('#controller').val();
+	var url = controller+"/upload";
+	// alert(url);
+	layer.confirm('您确定要修改吗？', {
+	  btn: ['确定','取消'], //按钮
+	}, function(index, layero){		
+	  layer.close(index);
+	  // alert(checkMenu());
+	  if(checkMenu()){
+	  	var url = controller+"/modify";
+	  	// var url = controller+"/checkTel";
+	  	// alert(url);
+	  	var data = new FormData($("#menuform")[0]);
+	  	$.ajax({
+	  		type: "POST",
+	  		url: url,
+	  		data: data,
+	  		dataType: 'JSON',
+	  		cache: false,
+	  		processData: false,
+	  		contentType: false,
+	  		success: function(respond, status, xhr){
+	  			if(respond == "success"){
+	  				// console.log(respond);
+	  				layer.msg('修改成功', {icon: 1});
+	  			}else{
+	  				layer.msg('修改失败', {icon: 2});
+	  			}
+	  			
+	  			window.location.href = "__CONTROLLER__/menu";
+	  		},	
+
+	  		error: function(xhr, textStatus, errorType){
+				alert(textStatus + ":" + errorType);
+			} 
+	  	});
+	  }else{
+	  	layer.msg("提交失败,请检查填写的信息格式是否正确！", {icon: 2});
+	  }
+	});
+	
+});
+
+function checkMenu(){
+	var data = $("#menuform").serializeArray();
+	var foodname = data[0].value;
+	var price = data[1].value;
+	var vip_price = data[2].value;
+	var file = data[5].value;
+	if($.trim(foodname)==""){
+		alert("hello");
+		layer.msg("请填写食物名称",{time: 3000});
+		$('#foodname').focus();
+		return false;
+	}
+
+	if($.trim(price)==""){
+		layer.msg("请填写价格",{time: 3000});
+		$('#price').focus();
+		return false;
+	}
+	//如果不是一个数字就弹出提示
+	if(isNaN(price)){
+		layer.msg("价格只能填写数字",{time: 3000});
+		$('#price').focus();
+		return false;
+	}
+	if($.trim(vip_price)==""){
+		layer.msg("请填写会员价格",{time: 3000});
+		$('#vip_price').focus();
+		return false;
+	}
+	//如果不是一个数字就弹出提示
+	if(isNaN(vip_price)){
+		layer.msg("会员价格只能填写数字",{time: 3000});
+		$('#vip_price').focus();
+		return false;
+	}
+
+	return true;
+}
+
+</script>
+</block>

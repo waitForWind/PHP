@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h2{
+	color:#fd9002;
+	font-size:20px;
+	margin:0;
+}
+
+
+
+h3{
+	color:#fd9002;
+	font-size:18px;
+	margin:0;
+}
+
+
+
+
+.news_BG{
+	background:url(../images/allBackG.jpg) repeat-x;
+	width:100%;
+	height:auto;
+}
+.news_A{
+	width:1045px;
+	min-height:860px;
+	height:auto;
+	margin:0 auto;
+}
+.news_A_b{
+	background:url(../images/saishiBack.jpg) no-repeat;
+	width:1045px;
+	min-height:860px;
+	height:auto;
+	float:left;
+}
+
+.news_A_a_top{
+	width:1045px;
+	height:105px;
+	float:left;
+}
+
+
+
+
+
+.news{
+	width:1045px;
+	min-height:750px;
+	float:left;
+	
+	/*font-family:"微软雅黑";**/
+}
+.news_L{
+	width:690px;
+	min-height:750px;
+	float:left;
+}
+.news_L_top{
+	width:690px;
+	height:3px;
+	float:left;
+}
+.news_L_a{
+	width:679px;
+	height:auto;
+	float:left;
+	border:solid 1px #e0e3e4;
+	background:#FFF;
+}
+.news_L_a_top{
+	width:677px;
+	height:24px;
+	float:left;
+	margin-top:8px;
+}
+.news_L_a_kongge{
+	width:679px;
+	height:16px;
+	float:left;
+}
+.news_L_a_b{
+	width:679px;
+	height:138px;
+	float:left;
+}
+.news_L_a_b_left{
+	width:17px;
+	height:138px;
+	float:left;
+}
+.news_L_a_b_tu{
+	width:140px;
+	height:138px;
+	float:left;
+}
+.news_L_a_b_wen{
+	width:500px;
+	height:138px;
+	float:left;
+	color:#575757;
+	font-size:12px;
+}
+
+
+.news_L_a_c_A{
+	width:679px;
+	height:470px;
+	float:left;
+}
+.news_L_a_c_left{
+	width:10px;
+	height:470px;
+	float:left;
+}
+.news_L_a_c{
+	width:679px;
+	height:490px;
+	float:left;
+}
+.news_L_a_c ul{
+	padding:0;
+	padding-left:30px;
+	margin:0;
+	list-style-image:url(../images/newsLeftUlimg.jpg);
+}
+.news_L_a_c li{
+	background: url("../images/line06.gif") repeat-x scroll center bottom transparent;
+	width:630px;
+	height:27px;
+	position: relative;
+	line-height: 28px;/******重要样式）*/
+}
+.news_L_a_c a{
+	color:#22639B;;
+	font-size:12px;
+}
+.news_L_a_c a:hover{
+	color:#feac41;
+	font-size:12px;
+}
+.news_R{
+	width:355px;
+	height:750px;
+	float:left;
+}
+.news_R_a{
+	width:355px;
+	height:416px;
+	float:left;
+}
+.news_R_a_T{
+	width:355px;
+	height:58px;
+	float:left;
+	text-align:center;
+	background:url(../images/newsRightTop.jpg) no-repeat;
+}
+.news_R_a_T_top{
+	width:355px;
+	height:20px;
+	float:left;
+}
+.news_R_a_L{
+	width:13px;
+	height:358px;
+	float:left;
+	background:url(../images/newsRightLeft.jpg) no-repeat;
+}
+.news_R_a_M{
+	width:329px;
+	height:343px;
+	float:left;
+	border-bottom:solid 1px #e3e3e3;
+	background:#FFF;
+}
+.news_R_a_M_left{
+	width:16px;
+	height:343px;
+	float:left;
+}
+.news_R_a_M_m{
+	width:297px;
+	height:338px;
+	float:left;
+	background:url(../images/saishiBG.jpg) no-repeat;
+}
+.news_R_a_M_m a{
+	color:#4f4f4f;
+	font-size:14px;
+}
+.news_R_a_M_m a:hover{
+	color:#fd9002;
+	font-size:14px;
+}
+.news_R_a_M_m ul{
+	padding:0;
+	margin:0;
+	margin-top:10px;
+	margin-left:40px;
+	list-style:none;
+}
+.news_R_a_M_m li{
+	width:225px;
+	height:32.3px;
+	float:left;
+	position: relative;
+	line-height: 22px;/******重要样式）*/
+}
+.news_R_a_R{
+	width:11px;
+	height:358px;
+	float:left;
+	background:url(../images/newsRightRight.jpg) no-repeat;
+}
+.news_R_b{
+	width:355px;
+	height:304px;
+	float:left;
+}
+.news_R_b_left{
+	width:12px;
+	height:304px;
+	float:left;
+}
+.news_R_b_a{
+	width:330px;
+	height:300px;
+	float:left;
+	border:solid 2px #eeeeee;
+}
+.news_R_b_a_top{
+	width:330px;
+	height:45px;
+	float:left;
+	background:#f7fafc;
+}
+.news_R_b_a_top_T{
+	width:330px;
+	height:15px;
+	float:left;
+}
+.news_R_b_a_top_L{
+	width:15px;
+	height:30px;
+	float:left;
+}
+.news_R_b_a_top_M{
+	width:250px;
+	height:30px;
+	float:left;
+}
+.news_R_b_a_top_more{
+	width:60px;
+	height:25px;
+	float:left;
+	padding-top:7px;
+}
+.news_R_b_a_top_more a{
+	color:#1b7fc6;
+	font-size:13px;
+}
+.news_R_b_a_top_more a:hover{
+	color:#1b7fc6;
+	font-size:13px;
+}
+.news_R_b_a_A{
+	width:330px;
+	height:255px;
+	float:left;
+}
+.news_R_b_a_A a{
+	color:#313131;
+	font-size:14px;
+}
+.news_R_b_a_A a:hover{
+	color:#eb8b02;
+	font-size:14px;
+}
+.news_R_b_a_A_left{
+	width:20px;
+	height:255px;
+	float:left;
+}
+.news_R_b_a_A ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	padding-top:10px;
+}
+.news_R_b_a_A li{
+	width:280px;
+	height:25px;
+	float:left;
+	background:url(../images/saishiNdian.jpg) no-repeat;
+	padding-left:10px;
+	position: relative;
+}
+
+/***王洋改写****/
+
+
+.news_L_a_b_wen a{
+	color:#fd9002;
+}
+.news_L_a_c li span,.news_R_a_M_m span,.news_R_b_a_A span{
+	color: #6F6F6F;
+    font-family: Arial,Helvetica,sans-serif;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+.place {
+    background: url("./images/icon15.gif") no-repeat scroll 0 0 transparent;
+    clear: both;
+    color: #FFFFFF;
+    height: 24px;
+    line-height: 24px;
+    margin: 0px 0 0 -13px;
+    padding: 0 0 9px 18px;
+    position: relative;
+    width: 316px;
+}
+.place a{
+	 color: #FFFFFF;
+}
+.news_L_a_b_wen span{
+	line-height:20px;
+}
+
+.news_L_a_b_tu img{
+	width:124px;
+	height:121px;
+	border:0px;
+}
+.fanyelist{
+	float: left;
+    height: 30px;
+    text-align: center;
+    width: 680px;
+	margin-top:10px;
+}

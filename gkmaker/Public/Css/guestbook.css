@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+li{
+	list-style-type:none;
+}
+
+
+.liuyan_BG{
+	background:url(../images/allBackG.jpg) repeat-x;
+	width:100%;
+	min-height:300px!important;
+	height:auto;
+}
+.liuyan_A{
+	width:1034px;
+	min-height:300px!important;
+	height:auto;
+	margin:0 auto;
+}
+.liuyan_A_b{
+	background:url(../images/liuyanBackG.jpg) no-repeat;
+	width:1034px;
+	min-height:300px!important;
+	height:auto;
+	float:left;
+}
+.liuyanban{
+	width:1034px;
+	height:auto;
+	margin:0 auto;
+}
+.liuyanban_top{
+	width:1034px;
+	height:110px;
+	float:left;
+}
+.liuyanban_liuyan{
+	width:1034px;
+	height:auto;
+	float:left;
+	border:solid 1px #e3e3e4;
+	background:#FFF;
+	font-family:"微软雅黑";
+}
+.liuyanban_a{
+	width:1034px;
+	height:30px;
+	float:left;
+	color:#f49705;
+	font-size:17px;
+	font-family:"微软雅黑";
+}
+.liuyanban_a_top{
+	width:1034px;
+	height:5px;
+	float:left;
+}
+.liuyanban_a_left{
+	width:20px;
+	height:20px;
+	float:left;
+}
+.liuyanban_a_more{
+	width:100px;
+	height:20px;
+	float:right;
+	color:#269ced;
+	font-size:14px;
+	
+}
+.liuyanban_a_more a:hover{
+	color:#269ced;
+	text-decoration:underline;
+	font-size:15px;
+	
+}
+.liuyan_H{
+	width:1034px;
+	height:4px;
+	float:left;
+	background:url(../images/liuyanHX.jpg);
+}
+.liuyan_All{
+	width:1034px;
+	min-height:110px!important;
+	float:left;
+	font-size:15px;
+}
+.liuyan_All span{
+	color:#308fae;
+}
+.liuyan_All_left{
+	width:34px;
+	height:110px;
+	float:left;
+}
+.liuyan_All_top{
+	width:1034px;
+	height:22px;
+	float:left;
+}
+.liuyan_All_main{
+	width:965px;
+	min-height:88px!important;
+	height:auto;
+	margin:0 auto;
+}
+.liuyan_All_bottom{
+	width:965px;
+	height:20px;
+	float:left;
+	background:url(../images/line_1.gif) repeat-x;
+}
+
+.liuyan_All_tu{
+	width:58px;
+	height:80px;
+	float:left;
+}
+.liuyan_All_b{
+	width:906px;
+	height:auto;
+	float:left;
+}
+.liuyan_All_b_a{
+	width:900px;
+	height:28px;
+	float:left;
+}
+.liuyan_All_ni{
+	width:142px;
+	height:24px;
+	float:left;
+	font-size:20px;;
+}
+
+.liuyan_All_zhu{
+	width:600px;
+	height:24px;
+	float:left;
+	color:#FF8A00;
+}
+.liuyan_All_time{
+	width:140px;
+	height:24px;
+	float:right;
+	font-size:14px;
+	color:#999999;
+	margin-left:10px;
+	margin-top:4px;
+}
+.liuyan_All_wen{
+	width:900px;
+	height:auto;
+	float:left;
+	color:#666666;
+	line-height:20px;
+}
+.liuyan_All_huifu{
+	width:600px;
+	height:auto;
+	float:left;
+
+}
+.liuyan_All_reply{
+	width:900px;
+	height:auto;
+	}
+.liuyan_All_kongbai{
+	width:965px;
+	height:10px;
+	float:left;
+}
+
+
+
+
+.liuyan_KG{
+	width:1034px;
+	height:20px;
+	float:left；
+}
+.liuyan_WY{
+	width:1034px;
+	height:auto;
+	float:left;
+	border:solid 1px #e3e3e3;
+	margin-top:20px;
+	font-family:"微软雅黑";
+}
+.liuyan_WY_a{
+	width:1034px;
+	height:auto;
+	float:left;
+	margin-left:30px;
+}
+.liuyan_WY_left{
+	width:30px;
+	height:auto;
+	float:left;
+}
+.liuyan_WY_right{
+	width:1000px;
+	height:auto;
+	float:left;
+}
+.liuyan_WY_r_top{
+	width:1000px;
+	height:20px;
+	float:left;
+}
+.liuyan_WY_r{
+	width:1000px;
+	min-height:25px!important;
+	height:auto;
+	float:left;
+	color:#0376bf;
+	font-size:14px;
+	padding-bottom:5px;
+}
+.liuyan_WY_r_a{
+	width:70px;
+	height:25px;
+	float:left;
+}
+.liuyan_WY_r_b{
+	width:900px;
+	height:auto;
+	float:left;
+}
+
+
+
+
+/*-----------------------------------------------------*/
+/**王洋改写**/
+/*鼠标导航效果**/
+.current{
+	background:url(../images/navBG.gif) no-repeat;
+}
+.liuyan_WY_right input{
+	border: 1px solid #CCCCCC;
+	height:22px;
+}
+
+.reply {
+    background-color: #4C92DC;
+    color: #FFFFFF;
+    display:inline-block;
+    height: 20px;
+    width: 60px;
+	text-align: center;
+	line-height: 21px;
+}
+.limitword{
+	text-align:right;
+	width:800px;
+}
+
+
+.liuyan_WY_r_b textarea{
+	width:800px;
+	height:120px;
+	border: 1px solid #CCCCCC;
+	color: #333333;
+}
+

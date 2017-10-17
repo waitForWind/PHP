@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>网站注册会员管理-后台管理首页-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+            $addJs="";
+            $currentNav ='网站注册会员管理 > 编辑会员信息';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+    <div class="wrap">
+        <include file="Common:head" />
+        <div class="mainBody">
+            <include file="Common:left" />
+            <div id="Right">
+                <div class="Item hr">
+                    <div class="current">编辑会员信息</div>
+                </div>
+                <!-- content start -->
+                <form>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
+                        <tr>
+                            <td>帐号:</td>
+                            <td>
+                                <input id="nickname" class="input" type="text" name="memb[nickname]" value="{$info.nickname}" size="25"/>
+                            </td>
+                            <td>真实姓名:</td>
+                            <td>
+                                <input type="text" class="input" name="memb[truename]" value="{$info.truename}" size="25" />
+                            </td>
+                            <td>密码:</td>
+                            <td>
+                                <input type="text" class="input" name="memb[pwd]" size="25"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>性别:</td>
+                            <td>
+                            <if condition="$info.sex neq NULL">
+                                <if condition="$info.sex eq 1">
+                                    <input type="radio" name="memb[sex]" checked="checked" value="1" />
+                                    男 &nbsp;
+                                    <input type="radio" name="memb[sex]"  value="0" />
+                                    女
+                                    <else />
+                                    <input type="radio" name="memb[sex]" value="1" />
+                                    男 &nbsp;
+                                    <input type="radio" name="memb[sex]"  checked="checked" value="0" />
+                                    女
+                                </if>
+                            </if>
+                            </td>
+                            <td>手机:</td>
+                            <td>
+                                <input type="text" class="input" name="memb[phone]" value="{$info.phone}" size="25" />
+                            </td>
+                            <td>QQ:</td>
+                            <td>
+                                <input type="text" class="input" name="memb[qq]" value="{$info.qq}" size="25" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>个人简介:</td>
+                            <td>
+                                <input type="text" class="input" name="memb[intr]" value="{$info.intr}" size="25" />
+                            </td>
+                        </tr>
+                        <input type="hidden" name="memb[uid]" value="{$info.uid}"/>
+                    </table>
+                    <div class="commonBtnArea" >
+                        <button class="btn submit" >添加</button>
+                        |
+                        <input class="btn" type="reset" value="重置" />
+                    </div>
+                </form>
+                <!-- content end --> </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <include file="Common:foot" />
+
+    <script type="text/javascript">
+    $(".submit").click(function(){
+        commonAjaxSubmit();
+        return false;
+    });
+</script>
+</body>
+</html>

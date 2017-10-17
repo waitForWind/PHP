@@ -1,0 +1,60 @@
+<div class="news_R">
+  <div class="news_R_a">
+    <div class="news_R_a_T">
+      <div class="news_R_a_T_top"></div>
+      <h2>热点推荐</h2>
+    </div>
+    <div class="news_R_a_L"></div>
+    <div class="news_R_a_M">
+      <div class="news_R_a_M_left"></div>
+
+      <div class="news_R_a_M_m">
+        <ul>
+          <volist name="news" id="new">
+            <li>
+              <a href="__GROUP__/News/index/show/new/nid/{$new.id}">{$new.title|mb_substr=0,15,'utf-8'}</a>
+
+            </li>
+          </volist>
+        </ul>
+
+      </div>
+
+    </div>
+    <div class="news_R_a_R"></div>
+  </div>
+
+  <div class="news_R_b">
+    <div class="news_R_b_left"></div>
+    <div class="news_R_b_a">
+      <div class="news_R_b_a_top">
+        <div class="news_R_b_a_top_T"></div>
+        <div class="news_R_b_a_top_L"></div>
+        <div class="news_R_b_a_top_M">
+
+          <h2>相关新闻</h2>
+        </div>
+        <div class="news_R_b_a_top_more">
+          <a href="#">
+            更多
+            <img src="__PUBLIC__/images/jiantouY.jpg" />
+          </a>
+        </div>
+      </div>
+      <div class="news_R_b_a_A">
+        <div class="news_R_b_a_A_left"></div>
+        <ul>
+          <volist name="about_news" id="about_new">
+            <if condition="$i lt 11">
+              <li>
+                <a href="__GROUP__/News/index/show/new/nid/{$new.id}">{$about_new.title|mb_substr=0,15,'utf-8'}</a>
+              </li>
+            </if>
+          </volist>
+
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>

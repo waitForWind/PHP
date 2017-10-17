@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+small{
+	font-size:12px;
+}
+a{color:#e06400;}
+.zhuce{
+	width:1028px;
+	height:350px;
+	float:left;
+}
+
+.zhuce_top{
+	width:1028px;
+	height:20px;
+	float:left;
+}
+.zhuce_left{
+	width:60px;
+	height:330px;
+	float:left;
+}
+.zhuce_a{
+	width:650px;
+	height:330px;
+	float:left;
+}
+.zhuce_a_a{
+	width:650px;
+	height:260px;
+	float:left;
+	color:#5f5f5f;
+}
+.zhuce_a_a a{
+	color:#0e99e4;
+	font-size:12px;
+}
+.zhuce_a_a a:hover{
+	color:#ff8110;
+	font-size:12px;
+}
+.zhuce_a_a td{
+	height:45px;
+}
+.zhuce_a_b{
+	width:650px;
+	height:50px;
+	padding-left:80px;
+}
+.zhuce_a_b_left{
+	width:80px;
+	height:70px;
+	float:left;
+}
+.zhuce_a_b_a{
+	width:95px;
+	height:36px;
+	float:left;
+}
+div.zhuce_a_b_a{
+	background:url(../images/zhuceZhuce.jpg) no-repeat;
+}
+div.zhuce_a_b_a:hover{
+	background:url(../images/zhuceZhuce01.jpg) no-repeat;
+}
+.zhuce_b{
+	width:318px;
+	height:290px;
+	float:left;
+}
+.zhuce_b_a{
+	width:1px;
+	height:290px;
+	float:left;
+	background:url(../images/zhuceXiaodian.jpg) repeat-y;
+}
+.zhuce_b_left{
+	width:32px;
+	height:290px;
+	float:left;
+}
+.zhuce_b_b{
+	width:280px;
+	height:40px;
+	float:left;	
+}
+.zhuce_b_c{
+	width:128px;
+	height:35px;
+	float:left;
+	margin-top:5px;
+}
+div.zhuce_b_c{
+	
+}
+/*div.zhuce_b_c:hover{
+	background:url(../images/zhuceDenglu01.jpg) repeat-y;
+}
+*/
+.zhuce_b_d{
+	width:280px;
+	height:200px;
+	float:left;
+	font-size:14px;
+}
+.zhuce_b_d p{
+	color:#e06400;
+	}
+
+
+/*-----------------错误时处想提醒的div-------------------*/
+
+.tixing{
+	width:300px;
+	height:20px;	
+	background:#fff5f5;
+	float:right;
+	padding-left:5px;
+	padding-top:5px;
+}
+/****/
+.zhuce_b_d{
+	line-height:20px;
+	margin-top:10px;
+}
+.zhuce_a_a img{
+	margin-bottom:-5px;
+}
+
+.reg_submit{ margin:0px 0px 33px 0px;border:none;background: url(../images/login_bg.png) no-repeat -12px -101px; height:45px;width:105px; padding:0px;}
+.reg_submit:hover{ background: url(../images/login_bg.png) no-repeat -120px -101px; height:45px;width:105px; padding:0px;}
+
+
+/**注册密码框样庿*/
+.zhuce input[type='password']{
+	border: 1px solid #C7C7C7;
+	height:30px;
+	padding-left:5px;
+}
+

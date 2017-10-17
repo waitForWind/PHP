@@ -1,0 +1,43 @@
+<div class="head">
+    <div class="head_a" >
+        <img width="270" height="60" src="__ROOT__/Public/images/keChuangLogo.png" alt="" style="margin-top: 15px;"></div>
+    <div style="width:130px; height:95px; float:left;"></div>
+    <div class="head_b"></div>
+    <div class="head_c">
+        <div class="head_cinput">
+            <form name="f1" onsubmit="return g(this)"  id="matchs_serach">
+                <input type="text"  name="word"  x-webkit-speech placeholder="百度全站搜索" />
+                <div style="display:none;">
+                    <input name=tn type=hidden value="bds">
+                    <input name=cl type=hidden value="3">
+                    <input name=ct type=hidden>
+                    <input name=si type=hidden value="http://localhost:88/gkmaker/">
+                    <input name=s type=radio>
+                    <input name=s type=radio checked></div>
+            </form>
+        </div>
+        <div class="head_c_1">
+            <a href="javascript:void(0);" id="search">
+                <img src="__PUBLIC__/images/sousuoFDJ.jpg" />
+            </a>
+        </div>
+        <div class="head_c_2">
+            <div class="reg">
+                <if condition="$uid eq 0">
+                    <a href="__GROUP__/Member/reg">免费注册</a>
+                    &nbsp;|&nbsp;
+                    <a href="__GROUP__/Member/login">登&nbsp;陆</a>
+                    <else/>
+                    <span style="color:#006495;">{$nickname}</span>
+                   <!--  <a class="notice_num" href="__GROUP__/Myzone/index">20</a> -->
+                    我的：
+                    <a href="__GROUP__/Myzone/zone">空间</a>
+                    <span id="outcome"></span>
+                    <a href="__GROUP__/Myzone/secureqa">设置</a>
+                    &nbsp;|
+                    <a href="__GROUP__/Member/loginout">退出</a>
+                </if>
+            </div>
+        </div>
+    </div>
+</div>

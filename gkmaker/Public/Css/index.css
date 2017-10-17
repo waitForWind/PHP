@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+#index{
+	background:url(../images/navBG.gif) no-repeat;
+}
+/* 大屏广告 */
+#jnImageroll {
+    float: left;
+    height: 340px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 702px;
+}
+#jnImageroll img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#jnImageroll div {
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+#jnImageroll div a {
+    background-color: #444444;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 32px;
+    margin-right: 1px;
+    overflow: hidden;
+    padding: 5px 15px;
+    text-align: center;
+    width: 110px;/*ad 导航宽度*/
+	/**font-style:oblique;*/
+	line-height:30px;
+}
+#jnImageroll div a:hover {
+    text-decoration: none;
+}
+#jnImageroll div a em {
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    width: 79px;
+}
+#jnImageroll .last {
+    margin: 0;
+    width: 108px;
+}
+#jnImageroll a.chos {
+    background: url("../images/adindex.gif") no-repeat center 39px #37A7D7;
+    color: #FFFFFF;
+}
+
+
+/*龙忠庭修改,兼容360，从main.CSS中调出单独处理*/
+
+.main_kj_aaa{
+	width:700px;
+	height:70px;
+    clear: both;
+
+}
+.main_kj_aaa ul{
+	padding:0px;
+	margin:0px;
+	width:690px;
+	height:66px;
+	list-style:none;
+}
+.main_kj_aaa li{
+	width:320px;
+	height:22px;
+	float:left;
+	background:url(../images/yidianBG.png) no-repeat;
+	padding-left:20px;
+}
+
+
+
+.main_kj li span{ 
+    font-family: Arial,Helvetica,sans-serif;
+    position: absolute;
+    right:15px;
+    top: 0;
+	color:#909090;
+	font-size:12px;
+	float:right;
+}
+.main_kj li{
+	width:300px;
+	height:28px;
+	float:left;
+	background:url(../images/yidianBG.png) no-repeat;
+	padding-left:10px;
+	position: relative;
+	margin-left:12px;
+}
+.main_kj a{
+	color:#137ac4;
+	font-size:12px;
+}
+.main_kj a:hover{
+	color:#F2710E;
+	font-size:12px;
+}
+/****日期对齐统一样式****/
+
+.main_ms li span{
+    font-family: Arial,Helvetica,sans-serif;
+    position: absolute;
+    right: 5px;
+    top: 0;
+	color:#909090;
+	font-size:12px;
+	float:right;
+}
+.main_ms li{
+	width:310px;
+	height:28px;
+	float:left;
+	background:url(../images/yidianBG.png) no-repeat;
+	padding-left:10px;
+	position: relative;
+}
+.main_ms a{
+	color:#137ac4;
+	font-size:12px;
+}
+.main_ms a:hover{
+	color:#F2710E;
+	font-size:12px;
+}
+
+
+/**科技校园图片大小**/
+.main_kj_1 img{ 
+	width:120px; height:80px;
+}
+
+/***滚动图片的css***/
+.scrollNews{
+	overflow:hidden;
+	height:85px;
+}
+.scrollNews ul{
+	list-style:none;
+	margin:0px;
+	padding-left:20px;
+	padding-top:10px;
+}
+.scrollNews li{
+	height:24px;
+	background:url(../images/27042.png) no-repeat;
+	padding-left:20px;
+	margin-bottom:5px;/**间距***/
+}
+.scrollNews p{
+	margin-left:60px;
+}
+
+/**2014 1.11 科技达人*/
+.main_b_3_a2{
+	width:298px;
+	height:320px;
+	float:left;
+}
+.main_b_3_dr{
+	width:93px;
+	height:99px;
+	float:left;
+}
+.main_b_3_dr_a{
+	width:67px;
+	height:90px;
+	float:left;
+	text-align:center;
+}
+.main_b_3_dr_b{
+	width:65px;
+	height:65px;
+	float:left;
+	border:solid 0px #ececec;
+}
+.main_b_3_dr_a a{
+	color:#2d7ace;
+	font-size:11px;
+}
+.main_b_3_dr_a a:hover{
+	color:#F2710E;
+	font-size:11px;
+}
+
+.main_b_3_a2 img{
+	border-radius:35px;
+	-webkit-transition:all 0.8s ease-out;
+	-moz-transition:all 0.8s ease-out;
+	transition:all 0.8s ease-out;
+
+}
+.main_b_3_a2 img:hover{
+	transform:rotateZ(360deg);
+	-webkit-transform:rotateZ(360deg);   
+	-moz-transform:rotateZ(360deg);
+}
+
+.hotwork{
+	width:310px;
+	height:300px;
+	float:left;
+}
+
+

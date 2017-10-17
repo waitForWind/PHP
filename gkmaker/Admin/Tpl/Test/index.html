@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>资讯管理-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='测试用例';
+        </php>
+        <include file="Common:intoHead" />
+        <script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+        <script>
+            //获取数据
+            // function getData(){ 
+            //     $.ajax({
+            //         type: 'POST',
+            //         url: {:U("TestAction/getData")},
+            //         dataType:'json',
+            //         success:function(json){
+                
+            //             var tr = "";
+            //             var list = json.list;
+            //             $.each(list,function(index,array){ //遍历json数据列
+            //                 tr += "<tr><td>"+array['id']+"<td/><td>"+array['relname']+"</td>";
+            //             });
+            //             $("#tableList").append(tr);
+            //         },
+                   
+            //         error:function(){
+            //             alert("数据加载失败");
+            //         }
+            //     });
+            // }
+            // 
+            
+        function getData(){ 
+            $.ajax({
+                type: 'POST',
+                url:"{:U("Test/getData")}",
+                dataType:'json',
+              
+                success:function(json){
+
+                    $("#test ul").empty();
+                    var li = "";
+
+                     var list = json.list;
+                     $.each(list,function(index,array){ //遍历json数据列
+                        li += "<li><a href='#'>id:"+array['id']+"name:"+array['name']+"</a><li>";
+                    });
+                    $("#test ul").append(li);
+                },
+                error:function(){
+                    alert("数据加载失败");
+                }
+            });
+        }
+
+
+            $(function(){
+                $("#test button").live('click',function(){
+              
+                 getData();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">测试用例</div>
+                        <ul></ul>
+                    </div>
+
+                    <div id="test">
+                        <button>显示信息</button>
+                    </div>
+                   <!--  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab" id="tableList">
+                        <thead>
+                            <tr>
+                                <td>序号</td>
+                                <td>姓名</td>
+                                <td width="200">操作</td>
+                            </tr>
+                        </thead>
+                        <tr> <button>显示信息</button> </tr>
+                        <volist name="list" id="vo">
+                            <tr align="center" > 
+                                <td>{$vo.id}</td>
+                                <td>{$vo.relname}</td>
+                                <td> <button>显示队员</button></td>
+                            </tr>
+                        </volist>
+                    </table> -->
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+    </body>
+</html>

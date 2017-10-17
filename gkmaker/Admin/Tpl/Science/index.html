@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>科技新闻管理-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+            $addJs="";
+            $currentNav ='科技新闻管理 > 科技新闻列表';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+    <div class="wrap">
+        <include file="Common:head" />
+        <div class="mainBody">
+            <include file="Common:left" />
+            <div id="Right">
+                <div class="Item hr">
+                    <div class="current">科技新闻列表</div>
+                </div>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
+                    <thead>
+                        <tr>
+                            <!--<td>立项申报人</td>
+                        -->
+                        <td>立项标题</td>
+                        <td>立项审核状态</td>
+                        <td>申请时间</td>
+
+                        <!-- <td>发布人</td>
+                    -->
+                    <td width="350">操作</td>
+                </tr>
+            </thead>
+            <volist name="list" id="vo">
+                <tr align="center" id="{$vo.id}">
+                    <td width="200px">
+                        <a style="color:red" href="__URL__/dowfile?id={$vo.id}">{$vo.title}</a>
+                    </td>
+                    <td>
+                        <if condition="$vo.status eq 2">待审核</if>
+                        <if condition="$vo.status eq 1">已通过</if>
+                        <if condition="$vo.status eq 0">未通过</if>
+                    </td>
+                    <td>{$vo.time|date="Y-m-d H:i:s",###}</td>
+                    <!-- <td>{$vo.aidName}</td>
+                -->
+                <td width="300px">
+                    [
+                    <a href="__URL__/status?id={$vo.id}">
+                        <if condition="$vo.status eq 0 ">
+                            申请通过
+                            <else />
+                            申请失败
+                        </if>
+                    </a>
+                    ][
+                    <a href="__URL__/addTeacher?id={$vo.id}">添加教师</a>
+                    ] [
+                    <a href="__URL__/editTeacher?id={$vo.id}">编辑教师</a>
+                    ][
+                    <a href="__URL__/advice?id={$vo.id}">教师意见</a>
+                    ][
+                    <a link="{:U('Science/delfile/',array('id'=>$vo['id']))}" href="javascript:void(0)"  class="del">删除</a>
+                    ]
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+            $(function(){
+                $(".del").click(function(){
+                    var delLink=$(this).attr("link");
+                    popup.confirm('你真的打算删除【<b>'+$(this).attr("name")+'</b>】吗?','温馨提示',function(action){
+                        if(action == 'ok'){
+                            top.window.location.href=delLink;
+                        }
+                    });
+                    return false;
+                });
+            });
+        </script>
+</body>
+</html>

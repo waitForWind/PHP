@@ -1,0 +1,66 @@
+<extend name="./Template/base.html" />
+<block name="main">
+	<table class="table table-striped">
+	  <caption style="font-size: 18px;">共{$count}条评论</caption>
+	  <thead>
+	    <tr>
+	      <th>评论者</th>
+	      <th>菜谱名称</th>
+	      <th>评论内容</th>
+	      <th>评论时间</th>
+	      <th style="text-align: center;">操作</th>
+	    </tr>
+	  </thead>
+	  <tbody >
+		  <volist name="comment" id="sub">
+			  <tr>
+			  	<td>{$sub['nickname']}</td>
+			  	<td>{$sub['name']}</td>
+			  	<td>{$sub['comment']}</td>
+			  	<td>{$sub['comment_time']}</td>
+			  	<td class="option" style="text-align: center;">
+			  		<a class="delData" data-ID="{$sub['comment_id']}">删除</a>
+			  		<!-- <span style="display: inline-block;width: 40px;"></span>
+			  		<a class="modData" href="javascript:;">修改</a> -->
+			  	</td>
+			  </tr>
+		  </volist>
+		  <script type="text/javascript">
+		  	$('.delData').click(function(e){
+		  		e.preventDefault();
+		  		var id = $(this).attr('data-ID');
+		  		console.log(id);
+		  		layer.confirm('您确定要删除吗？', {
+				  btn: ['确定','取消'], //按钮
+				}, function(index, layero){
+				layer.close(index); 
+			  	var url = "__CONTROLLER__/delComment/id/" + id;
+			  	
+			  	$.ajax({
+			  		type: "GET",
+			  		url: url,
+			  		success: function(respond, status, xhr){
+			  			if(respond == "删除成功"){
+			  				layer.msg('删除成功', {icon: 1});
+			  			}else{
+			  				layer.msg('删除失败', {icon: 2});
+			  			}
+			  			window.location.reload();
+			  		},
+
+			  		error: function(xhr, textStatus, errorType){
+						alert(textStatus + ":" + errorType);
+					} 
+			  	});
+				 
+				});
+		  	});
+		  </script>
+	  </tbody>
+	  
+	</table>
+	<div id="page" style="text-align: center;">
+	  	{$show}
+	</div>
+
+</block>
